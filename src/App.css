@@ -1,0 +1,11 @@
+:root {
+	--main-bg-color: #000000;
+	--card-bg-color: #2a2a2b;
+	--tag-color: #d4b2e4;
+	--pri-text-color: #ffcd25;
+	--sec-text-color: #ffffff;
+	--ter-text-color: #e9e8e8;
+	--footer-text-color: #bfbfbf;
+	--pri-font: 'Work Sans';
+	--sec-font: 'Mulish';
+}
