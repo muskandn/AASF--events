@@ -1,11 +1,10 @@
 import React, { useState } from 'react'
 import './navbar.css'
 import AASFLogo from '../../assets/svgIcons/aasflogo'
-import { NavLink, Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   const [click, setClick] = useState(false)
-  const [screen, setScreen] = useState([])
 
   const handleClick = () => {
     setClick(!click)
