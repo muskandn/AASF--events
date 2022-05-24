@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 import './navbar.css'
 import AASFLogo from '../../assets/svgIcons/aasflogo'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 function Navbar() {
   const [click, setClick] = useState(false)
+  const [screen, setScreen] = useState([])
 
   const handleClick = () => {
     setClick(!click)
@@ -25,10 +26,9 @@ function Navbar() {
           <ul className={click ? "nav-menu navbar-active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/"
-                activeClassName="navbar-active"
-                className="nav-links"
+                className={({isActive}) => ( isActive ? "nav-links navbar-active" : "nav-links")}
                 onClick={click ? handleClick : null}
               >
                 Home
@@ -36,10 +36,9 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                exact
-                to="/"
-                activeClassName="navbar-active"
-                className="nav-links"
+                exact="true"
+                to="/abhishar"
+                className={({isActive}) => ( isActive ? "nav-links navbar-active" : "nav-links")}
                 onClick={click ? handleClick : null}
               >
                 Abhishar
@@ -47,10 +46,9 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                exact
-                to="/"
-                activeClassName="navbar-active"
-                className="nav-links"
+                exact="true"
+                to="/blogs"
+                className={({isActive}) => ( isActive ? "nav-links navbar-active" : "nav-links")}
                 onClick={click ? handleClick : null}
               >
                 Blogs
@@ -58,10 +56,9 @@ function Navbar() {
             </li>
 			<li className="nav-item">
               <NavLink
-                exact
-                to="/"
-                activeClassName="navbar-active"
-                className="nav-links"
+                exact="true"
+                to="/events"
+                className={({isActive}) => ( isActive ? "nav-links navbar-active" : "nav-links")}
                 onClick={click ? handleClick : null}
               >
                 Events
@@ -69,10 +66,9 @@ function Navbar() {
             </li>
 			<li className="nav-item">
               <NavLink
-                exact
-                to="/"
-                activeClassName="navbar-active"
-                className="nav-links"
+                exact="true"
+                to="/team"
+                className={({isActive}) => ( isActive ? "nav-links navbar-active" : "nav-links")}
                 onClick={click ? handleClick : null}
               >
                 Team
@@ -80,10 +76,9 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                exact
-                to="/"
-                activeClassName="navbar-active"
-                className="nav-links"
+                exact="true"
+                to="/contact"
+                className={({isActive}) => ( isActive ? "nav-links navbar-active" : "nav-links")}
                onClick={click ? handleClick : null}
               >
                 Contact Us

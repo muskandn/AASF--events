@@ -8,33 +8,27 @@ import Contact from "../src/screens/Contact/contactScreen"
 import React from "react";
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
 } from "react-router-dom";
 
 function App() {
   return <div>
     <Router>
-      <Switch>
-        <Route exact path="/">
-          <Home/>
+      <Routes>
+        <Route exact path="/" element={<Home />}>
         </Route>
-        <Route exact path="/abhishar">
-          <Abhishar />
+        <Route exact path="/abhishar" element={<Abhishar />}>
         </Route>
-        <Route exact path="/blogs">
-          <Blogs />
+        <Route exact path="/blogs" element={<Blogs />}>
         </Route>
-        <Route exact path="/events">
-          <Events />
+        <Route exact path="/events" element={<Events />}>
         </Route>
-        <Route exact path="/team">
-          <Team />
+        <Route exact path="/team" element={<Team />}>
         </Route>
-        <Route exact path="/contact">
-          <Contact />
+        <Route exact path="/contact" element={<Contact />}>
         </Route>
-      </Switch>
+      </Routes>
     </Router>
   </div>;
 }
