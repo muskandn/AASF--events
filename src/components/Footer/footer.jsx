@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.css"
 import AASFLogo from "../../assets/svgIcons/aasflogo"
+import { Link } from "react-router-dom";
 
 function Footer(){
  return(
@@ -26,8 +27,8 @@ Morena Link Road, Gwalior, Madhya Pradesh, India, 474015.</p>
      <h5>General</h5>
      <div className="border1"></div> 
        <ul>
-         <a href="#"><li>Home</li></a>
-         <a href="#"><li>Login</li></a>
+       <Link to="/"><li>Home</li></Link>
+       <Link to="/"><li>Login</li></Link>
          
        </ul>
    </div>
@@ -39,8 +40,8 @@ Morena Link Road, Gwalior, Madhya Pradesh, India, 474015.</p>
        <ul>
          <Link to="/abhishar"><li>Abhishar</li></Link>
          <Link to="/blogs"><li>Blogs</li></Link>
-         <a href="#"><li>Events</li></a>
-         <a href="#"><li>Team</li></a>
+         <Link to="/events"><li>Events</li></Link>
+         <Link to="/team"><li>Team</li></Link>
        </ul>
    </div>
 

@@ -24,7 +24,7 @@
 	width: 50%;
 	padding: 10px 20px;
 	box-sizing: border-box;
-	color: #fff;
+	color: var(--secondary-text-color);
 }
 
 .footer-logo-container p{
@@ -38,18 +38,18 @@
 	/* width: 25%; */
 	/* padding: 10px 20px; */
 	box-sizing: border-box;
-	color: #fff;
+	color: var(--secondary-text-color);
 }
 
 .footer-items p {
 	font-size: 10px;
 	text-align: justify;
 	line-height: 14px;
-	color: #fff;
+	color: var(--secondary-text-color);
 }
 
 .footer-items h1 {
-	color: #fff;
+	color: var(--secondary-text-color);
 }
 
 .lower-footer{
@@ -58,7 +58,7 @@
 
 ul {
 	list-style: none;
-	color: #fff;
+	color: var(--secondary-text-color);
 	font-size: 12px;
 	letter-spacing: 0.5px;	
  }
@@ -66,12 +66,12 @@ ul {
 ul a {
 	text-decoration: none;
 	outline: none;
-	color: #fff;
+	color: var(--secondary-text-color);
 	transition: 0.3s;
 }
 
 ul a:hover {
-	color: #ff9800;
+	color: var(--primary-accent-color);
 }
 
 ul li {
@@ -80,21 +80,22 @@ ul li {
 }
 
 li i {
-	margin-right: 20px;
+	margin-right: 5px;
 }
 
 
 .social-media {
 	display: flex;
 	width: 100%;
-	color: #fff;
+	color: var(--secondary-text-color);
 	text-align: center;
 	font-size: 12px;
 	justify-content: space-between;
 }
 
 .terms{
-	display: flex
+	display: flex;
+	padding-left: 20px;
 	
 }
 
@@ -108,7 +109,7 @@ li i {
 	width: 25px;
 	margin: 0px 0px;
 	padding: 4px;
-	color: #fff;
+	color: var(--secondary-text-color);
 	transition: 0.5s;
 }
 
@@ -119,7 +120,7 @@ li i {
 .footer-bottom {
 	padding: 10px;
 	background: #00121b;
-	color: #fff;
+	color: var(--secondary-text-color);
 	font-size: 12px;
 	text-align: center;
 }
@@ -132,7 +133,7 @@ li i {
 	}
 }
 
-/* for mobile screen view */
+
 
 @media screen and (max-width: 660px) {
 	.footer-items {
@@ -140,6 +141,3 @@ li i {
 	}
 }
 
-/* you can toggle the media screen view accordingly by changing the (max-width: px) to your convenience */
-
-/* Thanks to Computer Conversations */
