@@ -1,0 +1,125 @@
+.navbar {
+	background-color: var(--primary-bg-color);
+	height: 142px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: var(--secondary-font);
+	font-size: 24px;
+	position: sticky;
+	top: 0;
+	z-index: 20;
+  }
+  
+  .nav-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 80px;
+	max-width: 1500px;
+  }
+  
+  .navbar-main-container{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+  }
+  
+  .nav-logo {
+	align-items: center;
+	margin-left: 20px;
+	cursor: pointer;
+	text-decoration: none;
+	flex-grow: 1;
+  }
+  
+  .nav-menu {
+	display: flex;
+	list-style: none;
+	text-align: center;
+	margin-right: 2rem;
+  }
+  
+  .nav-links {
+	color: var(--secondary-text-color);
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	height: 100%;
+	border-bottom: 3px solid transparent;
+  }
+  .fa-code {
+	margin-left: 1rem;
+  }
+  
+  .nav-item {
+	line-height: 40px;
+	margin-right: 1rem;
+  }
+  
+  .nav-item:after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 0;
+	background: transparent;
+	transition: width 0.7s ease, background-color 0.5s ease;
+  }
+  
+  .nav-item:hover:after {
+	width: 100%;
+	background: var(--primary-accent-color);
+  }
+  
+  .nav-item.navbar-active {
+	color: var(--primary-accent-color);
+	border: 1px solid var(--primary-accent-color);
+  }
+  
+  .nav-icon {
+	display: none;
+  }
+  
+  @media screen and (max-width: 960px) {
+	
+	.nav-menu {
+	  display: flex;
+	  flex-direction: column;
+	  width: 100%;
+	  position: absolute;
+	  top: 142px;
+	  left: -110%;
+	  opacity: 1;
+	  transition: all 0.5s ease;
+	}
+  
+	.nav-menu.navbar-active {
+	  background: var(--primary-bg-color);
+	  left: 0px;
+	  opacity: 1;
+	  transition: all 0.5s ease;
+	  z-index: 1;
+	}
+	.nav-item .navbar-active {
+	  color: var(--secondary-text-color);
+	  border: none;
+	}
+	.nav-links {
+	  padding: 1.5rem;
+	  width: 100%;
+	  display: table;
+	}
+  
+	.nav-icon {
+	  display: block;
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  transform: translate(-100%, 60%);
+	  font-size: 3rem;
+	  cursor: pointer;
+	  color: var(--secondary-text-color);
+	}
+  }
