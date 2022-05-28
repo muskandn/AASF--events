@@ -17,8 +17,8 @@ function Navbar() {
   return (
     <div>
      <div className={click ? "navbar-main-container" : ""}  onClick={()=>Close()} />
-      <nav className="navbar" onClick={e => e.stopPropagation()}>
-        <div className="nav-container">
+      <nav className="navbar flex-centre" onClick={e => e.stopPropagation()}>
+        <div className="nav-container flex-centre">
           <NavLink exact to="/" className="nav-logo">
             <AASFLogo/>
           </NavLink>
