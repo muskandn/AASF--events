@@ -75,9 +75,7 @@ Morena Link Road, Gwalior, Madhya Pradesh, India, 474015.</p>
  
  
 
- {/* <div className="footer-bottom">
-   Copyright &copy; Food and Burps 2020.
- </div> */}
+ 
 </div>
  
 
