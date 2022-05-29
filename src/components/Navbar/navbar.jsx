@@ -44,7 +44,7 @@ function Navbar() {
                 exact="true"
                 to="/"
                 className={({ isActive }) => isActiveClass(isActive)}
-                onClick={handleNavLinkClick()}
+                onClick={handleNavLinkClick}
               >
                 Home
               </NavLink>
@@ -54,7 +54,7 @@ function Navbar() {
                 exact="true"
                 to="/abhishar"
                 className={({ isActive }) => isActiveClass(isActive)}
-                onClick={handleNavLinkClick()}
+                onClick={handleNavLinkClick}
               >
                 Abhishar
               </NavLink>
@@ -64,7 +64,7 @@ function Navbar() {
                 exact="true"
                 to="/blogs"
                 className={({ isActive }) => isActiveClass(isActive)}
-                onClick={handleNavLinkClick()}
+                onClick={handleNavLinkClick}
               >
                 Blogs
               </NavLink>
@@ -74,7 +74,7 @@ function Navbar() {
                 exact="true"
                 to="/events"
                 className={({ isActive }) => isActiveClass(isActive)}
-                onClick={handleNavLinkClick()}
+                onClick={handleNavLinkClick}
               >
                 Events
               </NavLink>
@@ -84,7 +84,7 @@ function Navbar() {
                 exact="true"
                 to="/team"
                 className={({ isActive }) => isActiveClass(isActive)}
-                onClick={handleNavLinkClick()}
+                onClick={handleNavLinkClick}
               >
                 Team
               </NavLink>
@@ -94,7 +94,7 @@ function Navbar() {
                 exact="true"
                 to="/contact"
                 className={({ isActive }) => isActiveClass(isActive)}
-                onClick={handleNavLinkClick()}
+                onClick={handleNavLinkClick}
               >
                 Contact Us
               </NavLink>
