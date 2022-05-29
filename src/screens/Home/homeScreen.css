@@ -1,0 +1,26 @@
+.homepage-section {
+	background-color: var(--primary-bg-color);
+	color: var(--secondary-text-color);
+	font-family: var(--secondary-font);
+	display: flex;
+	justify-content: space-between;
+	padding: 5rem;
+	font-size: 24px;
+}
+
+.homepage-headings {
+	color: var(--primary-accent-color);
+	padding: 2rem;
+}
+
+.homepage-text {
+	padding: 2rem;
+}
+
+.homepage-image {
+	padding: 2rem;
+}
+
+.homepage-image img {
+	max-height: 600px;
+}
