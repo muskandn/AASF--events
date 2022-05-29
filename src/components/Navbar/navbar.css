@@ -31,7 +31,6 @@
   .nav-logo {
 	align-items: center;
 	margin-left: 20px;
-	cursor: pointer;
 	text-decoration: none;
 	flex-grow: 1;
   }
