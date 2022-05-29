@@ -19,6 +19,12 @@ function Navbar() {
     return activeClassName
   }
 
+  const handleNavLinkClick = () => {
+    if (isNavOpen) {
+      handleOpenNav();
+    }
+  };
+
   return (
     <div>
       <div
@@ -38,7 +44,7 @@ function Navbar() {
                 exact="true"
                 to="/"
                 className={({ isActive }) => isActiveClass(isActive)}
-                onClick={isNavOpen ? handleOpenNav : null}
+                onClick={handleNavLinkClick()}
               >
                 Home
               </NavLink>
@@ -48,7 +54,7 @@ function Navbar() {
                 exact="true"
                 to="/abhishar"
                 className={({ isActive }) => isActiveClass(isActive)}
-                onClick={isNavOpen ? handleOpenNav : null}
+                onClick={handleNavLinkClick()}
               >
                 Abhishar
               </NavLink>
@@ -58,7 +64,7 @@ function Navbar() {
                 exact="true"
                 to="/blogs"
                 className={({ isActive }) => isActiveClass(isActive)}
-                onClick={isNavOpen ? handleOpenNav : null}
+                onClick={handleNavLinkClick()}
               >
                 Blogs
               </NavLink>
@@ -68,7 +74,7 @@ function Navbar() {
                 exact="true"
                 to="/events"
                 className={({ isActive }) => isActiveClass(isActive)}
-                onClick={isNavOpen ? handleOpenNav : null}
+                onClick={handleNavLinkClick()}
               >
                 Events
               </NavLink>
@@ -78,7 +84,7 @@ function Navbar() {
                 exact="true"
                 to="/team"
                 className={({ isActive }) => isActiveClass(isActive)}
-                onClick={isNavOpen ? handleOpenNav : null}
+                onClick={handleNavLinkClick()}
               >
                 Team
               </NavLink>
@@ -88,7 +94,7 @@ function Navbar() {
                 exact="true"
                 to="/contact"
                 className={({ isActive }) => isActiveClass(isActive)}
-                onClick={isNavOpen ? handleOpenNav : null}
+                onClick={handleNavLinkClick()}
               >
                 Contact Us
               </NavLink>
