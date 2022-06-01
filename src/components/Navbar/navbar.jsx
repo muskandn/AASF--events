@@ -1,24 +1,35 @@
-import React, { useState } from 'react'
+import React, { Component, useState } from 'react'
 import './navbar.css'
 import AASFLogo from '../../assets/svgIcons/aasflogo'
 import { NavLink } from 'react-router-dom'
 
 function Navbar() {
-  const [click, setClick] = useState(false)
+  const [isNavOpen, setIsNavOpen] = useState(false)
 
-  const handleClick = () => {
-    setClick(!click)
+  const handleOpenNav = () => {
+    setIsNavOpen(!isNavOpen)
   }
 
-  const Close = () => {
-    setClick(false)
+  const handleCloseNav = () => {
+    setIsNavOpen(false)
   }
+
+  const isActiveClass = (isActive) => {
+    const activeClassName = isActive ? 'nav-links navbar-active' : 'nav-links'
+    return activeClassName
+  }
+
+  const handleNavLinkClick = () => {
+    if (isNavOpen) {
+      handleOpenNav();
+    }
+  };
 
   return (
     <div>
       <div
-        className={click ? 'navbar-main-container' : ''}
-        onClick={() => Close()}
+        className={isNavOpen ? 'navbar-main-container' : ''}
+        onClick={() => handleCloseNav()}
       />
       <nav className="navbar flex-centre" onClick={(e) => e.stopPropagation()}>
         <div className="nav-container flex-centre">
@@ -27,15 +38,13 @@ function Navbar() {
               <AASFLogo />
             </NavLink>
           </div>
-          <ul className={click ? 'nav-menu navbar-active' : 'nav-menu'}>
+          <ul className={isNavOpen ? 'nav-menu navbar-active' : 'nav-menu'}>
             <li className="nav-item">
               <NavLink
                 exact="true"
                 to="/"
-                className={({ isActive }) =>
-                  isActive ? 'nav-links navbar-active' : 'nav-links'
-                }
-                onClick={click ? handleClick : null}
+                className={({ isActive }) => isActiveClass(isActive)}
+                onClick={handleNavLinkClick}
               >
                 Home
               </NavLink>
@@ -44,10 +53,8 @@ function Navbar() {
               <NavLink
                 exact="true"
                 to="/abhishar"
-                className={({ isActive }) =>
-                  isActive ? 'nav-links navbar-active' : 'nav-links'
-                }
-                onClick={click ? handleClick : null}
+                className={({ isActive }) => isActiveClass(isActive)}
+                onClick={handleNavLinkClick}
               >
                 Abhishar
               </NavLink>
@@ -56,10 +63,8 @@ function Navbar() {
               <NavLink
                 exact="true"
                 to="/blogs"
-                className={({ isActive }) =>
-                  isActive ? 'nav-links navbar-active' : 'nav-links'
-                }
-                onClick={click ? handleClick : null}
+                className={({ isActive }) => isActiveClass(isActive)}
+                onClick={handleNavLinkClick}
               >
                 Blogs
               </NavLink>
@@ -68,10 +73,8 @@ function Navbar() {
               <NavLink
                 exact="true"
                 to="/events"
-                className={({ isActive }) =>
-                  isActive ? 'nav-links navbar-active' : 'nav-links'
-                }
-                onClick={click ? handleClick : null}
+                className={({ isActive }) => isActiveClass(isActive)}
+                onClick={handleNavLinkClick}
               >
                 Events
               </NavLink>
@@ -80,10 +83,8 @@ function Navbar() {
               <NavLink
                 exact="true"
                 to="/team"
-                className={({ isActive }) =>
-                  isActive ? 'nav-links navbar-active' : 'nav-links'
-                }
-                onClick={click ? handleClick : null}
+                className={({ isActive }) => isActiveClass(isActive)}
+                onClick={handleNavLinkClick}
               >
                 Team
               </NavLink>
@@ -92,17 +93,15 @@ function Navbar() {
               <NavLink
                 exact="true"
                 to="/contact"
-                className={({ isActive }) =>
-                  isActive ? 'nav-links navbar-active' : 'nav-links'
-                }
-                onClick={click ? handleClick : null}
+                className={({ isActive }) => isActiveClass(isActive)}
+                onClick={handleNavLinkClick}
               >
                 Contact Us
               </NavLink>
             </li>
           </ul>
-          <div className="nav-icon" onClick={handleClick}>
-            <i className={click ? 'fa fa-times' : 'fa fa-bars'}></i>
+          <div className="nav-icon" onClick={handleOpenNav}>
+            <i className={isNavOpen ? 'fa fa-times' : 'fa fa-bars'}></i>
           </div>
         </div>
       </nav>
