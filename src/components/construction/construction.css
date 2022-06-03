@@ -1,0 +1,17 @@
+.construction {
+	background-color: var(--primary-bg-color);
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.construction-image img {
+	height: 50vh;
+}
+
+.construction-text {
+	font-family: var(--primary-font);
+	color: var(--primary-text-color);
+	font-size: 1.5rem;
+	padding: 1rem;
+}

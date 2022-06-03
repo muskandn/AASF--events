@@ -1,11 +1,23 @@
-.navbar {
-	background-color: var(--primary-bg-color);
-	height: 142px;
-	font-family: var(--secondary-font);
-	font-size: 24px;
+.navbar-container {
 	position: sticky;
 	top: 0;
 	z-index: 20;
+}
+
+.navbar-opaque {
+	background-color: var(--primary-bg-color);
+}
+
+.navbar-backdrop {
+	background-color: rgb(0, 0, 0, 0.8);
+	backdrop-filter: blur(10px);
+	box-shadow: 0px 0px 20px 4px #000000;
+}
+
+.navbar {
+	height: 142px;
+	font-family: var(--secondary-font);
+	font-size: 24px;
   }
   
   .nav-container {

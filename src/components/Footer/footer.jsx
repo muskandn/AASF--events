@@ -28,9 +28,9 @@ function Footer() {
               <Link to="/">
                 <li>Home</li>
               </Link>
-              <Link to="/">
+              {/* <Link to="/">
                 <li>Login</li>
-              </Link>
+              </Link> */}
             </ul>
           </div>
 
@@ -57,16 +57,17 @@ function Footer() {
             <h5>Help</h5>
             <div className="footer-border"></div>
             <ul>
-              <li>aasf@iiitm.ac.in</li>
-              <li>aasf.iiitm@gmail.com</li>
-              <li>Contact us</li>
+              <li>
+                <a href='mailto:aasf@iiitm.ac.in'>aasf@iiitm.ac.in</a></li>
+              <li><a href='mailto:aasf.iiitm@gmail.com'>aasf.iiitm@gmail.com</a></li>
+              <li><Link exact to="/contact">Contact us</Link></li>
             </ul>
           </div>
 
           <div className="social-media">
             <div className="terms">
-              <div className="lower-footer">Terms and Conditions</div>
-              <div className="lower-footer">Privacy Policy</div>
+              {/* <div className="lower-footer">Terms and Conditions</div>
+              <div className="lower-footer">Privacy Policy</div> */}
             </div>
             <div>
               <a href="https://www.linkedin.com/company/aasf-iiitmg/posts/">

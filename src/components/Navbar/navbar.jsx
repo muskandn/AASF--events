@@ -1,10 +1,11 @@
-import React, { Component, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './navbar.css'
 import AASFLogo from '../../assets/svgIcons/aasflogo'
 import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false)
+  const [scroll, setScroll] = useState(false)
 
   const handleOpenNav = () => {
     setIsNavOpen(!isNavOpen)
@@ -25,8 +26,14 @@ function Navbar() {
     }
   };
 
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY > 120)
+    })
+  }, [])
+
   return (
-    <div>
+    <div className={scroll ? 'navbar-container navbar-backdrop' : 'navbar-container navbar-opaque'}>
       <div
         className={isNavOpen ? 'navbar-main-container' : ''}
         onClick={() => handleCloseNav()}
