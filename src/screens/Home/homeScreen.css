@@ -133,13 +133,19 @@
 		flex-direction: column-reverse;
 	}
 
-	.homepage-college-name {
-		font-size: 1.3rem;
-	}
-
 	.homepage-headings {
 		font-size: 2rem;
 		text-align: center;
+		padding-left: 0rem;
+	}
+
+	.homepage-college-name {
+		font-size: 1.3rem;
+		padding-left: 2rem;
+	}
+
+	.homepage-abhishar-heading {
+		padding-right: 0rem;
 	}
 
 	.homepage-text {

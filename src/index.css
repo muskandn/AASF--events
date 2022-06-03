@@ -45,6 +45,10 @@ video {
 	padding: 0;
 }
 
+html, body {
+	overflow-x: hidden;
+}
+
 article,
 footer,
 header,
