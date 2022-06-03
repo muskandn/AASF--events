@@ -117,7 +117,7 @@ function HomeScreen() {
             <div className="homepage-image">
               <img
                 alt="mobile-app"
-                src="https://res.cloudinary.com/dzerj4bzd/image/upload/v1654114300/AASF%20Website/homepage-app_xuhz1u.png"
+                src="https://res.cloudinary.com/dzerj4bzd/image/upload/v1654265814/AASF%20Website/homepage-app_damuty.png"
               ></img>
             </div>
           </Tilt>
