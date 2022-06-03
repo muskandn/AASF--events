@@ -35,7 +35,7 @@ function Navbar() {
         <div className="nav-container flex-centre">
           <div className="nav-logo">
             <NavLink exact to="/">
-              <AASFLogo />
+              <AASFLogo width={73} height={84}/>
             </NavLink>
           </div>
           <ul className={isNavOpen ? 'nav-menu navbar-active' : 'nav-menu'}>
