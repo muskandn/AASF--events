@@ -69,19 +69,19 @@ function Footer() {
               <div className="lower-footer">Privacy Policy</div>
             </div>
             <div>
-              <a href="#">
+              <a href="https://www.linkedin.com/company/aasf-iiitmg/posts/">
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/aasf_iiitmg/">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/aasfiiitm/">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="#">
-                <i className="fab fa-google-plus-square"></i>
+              <a href="https://medium.com/tech-iiitg">
+                <i className="fab fa-medium"></i>
               </a>
-              <a href="#">
+              <a href="https://www.youtube.com/c/AASFIIITM">
                 <i className="fab fa-youtube"></i>
               </a>
             </div>
