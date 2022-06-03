@@ -75,8 +75,12 @@ function HomeScreen() {
               of the happenings at the institute and insight on techno-
               managerial topics are the baits of the magazine.
             </div>
-            <Link className='homepage-text homepage-abhishar-button' exact to='/abhishar'>
-              <CustomButton customButton__text="ABHISHAR"/>
+            <Link
+              className="homepage-text homepage-abhishar-button"
+              exact
+              to="/abhishar"
+            >
+              <CustomButton customButton__text="ABHISHAR" />
             </Link>
           </div>
         </Fade>
@@ -107,9 +111,13 @@ function HomeScreen() {
               survived not only five centuries, but also the leap into
               electronic typesetting, remaining essentially
             </div>
-            <Link className='homepage-text' exact to='/'>
-              <CustomButton customButton__text="DOWNLOAD"/>
-            </Link>
+            <a
+              className="homepage-text"
+              href="https://drive.google.com/drive/folders/1Rc0wMjLU-VsjP_QLLOLCMNa-4mQtqJtT?usp=sharing"
+              target="_blank"
+            >
+              <CustomButton customButton__text="DOWNLOAD" />
+            </a>
           </div>
         </Fade>
         <Fade right>
