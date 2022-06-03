@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './homeScreen.css'
 import Navbar from '../../components/Navbar/navbar'
+import CustomButton from '../../components/custom-button/CutsomButton'
 import Fade from 'react-reveal/Fade'
 import Tilt from 'react-parallax-tilt'
 
@@ -53,8 +55,8 @@ function HomeScreen() {
           <Tilt trackOnWindow="true" tiltMaxAngleX={10} tiltMaxAngleY={10}>
             <div className="homepage-image">
               <img
-                alt="trophy"
-                src="https://res.cloudinary.com/dzerj4bzd/image/upload/v1654114040/AASF%20Website/homepage-trophy_ba5dvi.png"
+                alt="rocket"
+                src="https://res.cloudinary.com/dzerj4bzd/image/upload/v1654251556/AASF%20Website/homepage-rocket_wfv6jp.png"
               ></img>
             </div>
           </Tilt>
@@ -73,6 +75,9 @@ function HomeScreen() {
               of the happenings at the institute and insight on techno-
               managerial topics are the baits of the magazine.
             </div>
+            <Link className='homepage-text homepage-abhishar-button' exact to='/abhishar'>
+              <CustomButton customButton__text="ABHISHAR"/>
+            </Link>
           </div>
         </Fade>
         <Fade right>
@@ -102,6 +107,9 @@ function HomeScreen() {
               survived not only five centuries, but also the leap into
               electronic typesetting, remaining essentially
             </div>
+            <Link className='homepage-text' exact to='/'>
+              <CustomButton customButton__text="DOWNLOAD"/>
+            </Link>
           </div>
         </Fade>
         <Fade right>
