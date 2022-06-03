@@ -2,7 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './homeScreen.css'
 import Navbar from '../../components/Navbar/navbar'
+import Footer from '../../components/Footer/footer'
 import CustomButton from '../../components/custom-button/CutsomButton'
+import ToTop from '../../components/ToTop'
 import Fade from 'react-reveal/Fade'
 import Tilt from 'react-parallax-tilt'
 
@@ -10,6 +12,7 @@ function HomeScreen() {
   return (
     <div>
       <Navbar />
+      <ToTop />
       <div className="homepage-section">
         <Fade left>
           <div className="homepage-content-box">
@@ -104,12 +107,7 @@ function HomeScreen() {
               Our Android App
             </div>
             <div className="homepage-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially
+            Download our Android app to access your profile, leaderboard and many more exciting features. The app also provides you with our event calendar and notifies you of all the updates!
             </div>
             <a
               className="homepage-text"
@@ -131,6 +129,7 @@ function HomeScreen() {
           </Tilt>
         </Fade>
       </div>
+      <Footer />
     </div>
   )
 }
