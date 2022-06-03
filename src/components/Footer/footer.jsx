@@ -28,9 +28,9 @@ function Footer() {
               <Link to="/">
                 <li>Home</li>
               </Link>
-              <Link to="/">
+              {/* <Link to="/">
                 <li>Login</li>
-              </Link>
+              </Link> */}
             </ul>
           </div>
 
@@ -66,8 +66,8 @@ function Footer() {
 
           <div className="social-media">
             <div className="terms">
-              <div className="lower-footer">Terms and Conditions</div>
-              <div className="lower-footer">Privacy Policy</div>
+              {/* <div className="lower-footer">Terms and Conditions</div>
+              <div className="lower-footer">Privacy Policy</div> */}
             </div>
             <div>
               <a href="https://www.linkedin.com/company/aasf-iiitmg/posts/">
