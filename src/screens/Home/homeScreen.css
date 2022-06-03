@@ -12,7 +12,7 @@
 	font-size: 1.55rem;
 }
 
-.homepage-section:nth-child(4) {
+.homepage-section:nth-child(5) {
 	flex-direction: row-reverse;
 }
 
@@ -129,7 +129,7 @@
 		flex-direction: column-reverse;
 	}
 
-	.homepage-section:nth-child(4) {
+	.homepage-section:nth-child(5) {
 		flex-direction: column-reverse;
 	}
 
