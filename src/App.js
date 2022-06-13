@@ -1,4 +1,5 @@
 import './App.css';
+import Layout from './layout/layout';
 import Home from '../src/screens/Home/homeScreen';
 import Abhishar from '../src/screens/Abhishar/abhisharScreen';
 import Blogs from '../src/screens/Blogs/blogsScreen';
@@ -12,14 +13,16 @@ function App() {
 	return (
 		<div>
 			<Router>
-				<Routes>
-					<Route exact path='/' element={<Home />}></Route>
-					<Route exact path='/abhishar' element={<Abhishar />}></Route>
-					<Route exact path='/blogs' element={<Blogs />}></Route>
-					<Route exact path='/events' element={<Events />}></Route>
-					<Route exact path='/team' element={<Team />}></Route>
-					<Route exact path='/contact' element={<Contact />}></Route>
-				</Routes>
+				<Layout>
+					<Routes>
+						<Route exact path='/' element={<Home />}></Route>
+						<Route exact path='/abhishar' element={<Abhishar />}></Route>
+						<Route exact path='/blogs' element={<Blogs />}></Route>
+						<Route exact path='/events' element={<Events />}></Route>
+						<Route exact path='/team' element={<Team />}></Route>
+						<Route exact path='/contact' element={<Contact />}></Route>
+					</Routes>
+				</Layout>
 			</Router>
 		</div>
 	);
