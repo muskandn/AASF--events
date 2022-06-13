@@ -45,8 +45,9 @@ function HomeScreen() {
           <div className="homepage-content-box">
             <div className="homepage-headings">Our Vision</div>
             <div className="homepage-text">
-              Abhigyan Abhikaushalam Students’ Forum aims to construct this
-              shoreline and helps in constructing the further path. It works to
+              Abhigyan Abhikaushalam Students’ Forum aims to construct a
+              shoreline that would help students construct a future path for
+              themselves. It works to
               conjugate knowledge and skills into a single bunch. Knowledge is
               incomplete in itself, unless it is complemented by skills. This
               forum aims in providing the right kind of knowledge to the
