@@ -22,18 +22,24 @@ function Navbar() {
 
   const handleNavLinkClick = () => {
     if (isNavOpen) {
-      handleOpenNav();
+      handleOpenNav()
     }
-  };
+  }
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
+    window.addEventListener('scroll', () => {
       setScroll(window.scrollY > 120)
     })
   }, [])
 
   return (
-    <div className={scroll ? 'navbar-container navbar-backdrop' : 'navbar-container navbar-opaque'}>
+    <div
+      className={
+        scroll
+          ? 'navbar-container navbar-backdrop'
+          : 'navbar-container navbar-opaque'
+      }
+    >
       <div
         className={isNavOpen ? 'navbar-main-container' : ''}
         onClick={() => handleCloseNav()}
@@ -42,7 +48,7 @@ function Navbar() {
         <div className="nav-container flex-centre">
           <div className="nav-logo">
             <NavLink exact to="/">
-              <AASFLogo width={73} height={84}/>
+              <AASFLogo width={73} height={84} />
             </NavLink>
           </div>
           <ul className={isNavOpen ? 'nav-menu navbar-active' : 'nav-menu'}>

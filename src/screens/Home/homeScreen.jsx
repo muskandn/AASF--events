@@ -47,11 +47,10 @@ function HomeScreen() {
             <div className="homepage-text">
               Abhigyan Abhikaushalam Students’ Forum aims to construct a
               shoreline that would help students construct a future path for
-              themselves. It works to
-              conjugate knowledge and skills into a single bunch. Knowledge is
-              incomplete in itself, unless it is complemented by skills. This
-              forum aims in providing the right kind of knowledge to the
-              students and development of skills.
+              themselves. It works to conjugate knowledge and skills into a
+              single bunch. Knowledge is incomplete in itself, unless it is
+              complemented by skills. This forum aims in providing the right
+              kind of knowledge to the students and development of skills.
             </div>
           </div>
         </Fade>
@@ -76,7 +75,8 @@ function HomeScreen() {
               <b>“Abhishar”</b>, the annual magazine of AASF, contains articles
               by students, alumni and the institute’s faculty and serves as a
               medium to exchange ones thoughts and experiences. The highlights
-              of the happenings at the institute and insight on techno-managerial topics are the spirit of the magazine.
+              of the happenings at the institute and insight on
+              techno-managerial topics are the spirit of the magazine.
             </div>
             <Link
               className="homepage-text homepage-abhishar-button"
