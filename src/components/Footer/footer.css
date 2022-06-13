@@ -6,10 +6,8 @@
 
 .footer-container{
   display: flex;
-  
   color: var(--primary-text-color);
   font-family: var(--secondary-font);
-  
   font-size: 0.9rem;
   justify-content:space-between;
 }
@@ -17,7 +15,6 @@
 .footer-address-container{
   display: flex;
   align-items: center;
-  
 }
 
 .footer-menu-container{

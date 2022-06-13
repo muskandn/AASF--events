@@ -1,7 +1,9 @@
 import React from "react";
-import "./footer.css";
-import AASFLogo from "../../assets/svgIcons/aasflogo";
 import { Link } from "react-router-dom";
+import AASFLogo from "../../assets/svgIcons/aasflogo";
+import "./footer.css";
+
+
 
 function Footer() {
   return (
@@ -72,6 +74,7 @@ function Footer() {
         </div>
         
       </div>
+      
       <div className="footer-socialmedia-icons">
       <a href="https://www.linkedin.com/company/aasf-iiitmg/posts/">
                 <i className="fab fa-linkedin-in"></i>
