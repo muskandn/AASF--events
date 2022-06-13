@@ -1,1 +1,1 @@
-export { default } from "./abhisharScreen";
+export { default } from './abhisharScreen';

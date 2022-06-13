@@ -1,1 +1,1 @@
-export { default } from "./eventsScreen";
+export { default } from './eventsScreen';
