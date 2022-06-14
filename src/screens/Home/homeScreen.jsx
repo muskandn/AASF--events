@@ -23,9 +23,9 @@ function HomeScreen() {
 							Abhigyan Abhikaushalam Students&apos; Forum
 						</div>
 						<div className='homepage-text'>
-							AASF works to conjugate knowledge and skills into a single bunch. The
-							forum also aims to inculcate in the students the spirit of excellence in
-							every field along with promoting innovative ideas.
+							AASF works to conjugate knowledge and skills into a single bunch.
+							The forum also aims to inculcate in the students the spirit of
+							excellence in every field along with promoting innovative ideas.
 						</div>
 					</div>
 				</Fade>
@@ -45,12 +45,12 @@ function HomeScreen() {
 					<div className='homepage-content-box'>
 						<div className='homepage-headings'>Our Vision</div>
 						<div className='homepage-text'>
-							Abhigyan Abhikaushalam Students’ Forum aims to construct a shoreline that
-							would help students construct a future path for themselves. It works to
-							conjugate knowledge and skills into a single bunch. Knowledge is
-							incomplete in itself, unless it is complemented by skills. This forum
-							aims in providing the right kind of knowledge to the students and
-							development of skills.
+							Abhigyan Abhikaushalam Students’ Forum aims to construct a
+							shoreline that would help students construct a future path for
+							themselves. It works to conjugate knowledge and skills into a
+							single bunch. Knowledge is incomplete in itself, unless it is
+							complemented by skills. This forum aims in providing the right
+							kind of knowledge to the students and development of skills.
 						</div>
 					</div>
 				</Fade>
@@ -72,11 +72,11 @@ function HomeScreen() {
 							Abhishar
 						</div>
 						<div className='homepage-text homepage-abhishar-text'>
-							<b>“Abhishar”</b>, the annual magazine of AASF, contains articles by
-							students, alumni and the institute’s faculty and serves as a medium to
-							exchange ones thoughts and experiences. The highlights of the happenings
-							at the institute and insight on techno-managerial topics are the spirit
-							of the magazine.
+							<b>“Abhishar”</b>, the annual magazine of AASF, contains articles
+							by students, alumni and the institute’s faculty and serves as a
+							medium to exchange ones thoughts and experiences. The highlights
+							of the happenings at the institute and insight on
+							techno-managerial topics are the spirit of the magazine.
 						</div>
 						<Link
 							className='homepage-text homepage-abhishar-button'
@@ -107,9 +107,9 @@ function HomeScreen() {
 							Our Android App
 						</div>
 						<div className='homepage-text'>
-							Download our Android app to access your profile, leaderboard and many
-							more exciting features. The app also provides you with our event calendar
-							and notifies you of all the updates!
+							Download our Android app to access your profile, leaderboard and
+							many more exciting features. The app also provides you with our
+							event calendar and notifies you of all the updates!
 						</div>
 						<a
 							className='homepage-text'

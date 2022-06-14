@@ -13,7 +13,8 @@ function Footer() {
 
 						<p>
 							Address: A201, <br />
-							ABV-Indian Institute of Information Technology and Management Gwalior,
+							ABV-Indian Institute of Information Technology and Management
+							Gwalior,
 							<br />
 							Morena Link Road, Gwalior, Madhya Pradesh, India, 474015.
 						</p>
