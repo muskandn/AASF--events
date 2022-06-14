@@ -1,76 +1,82 @@
-import React from 'react'
-import './footer.css'
-import AASFLogo from '../../assets/svgIcons/aasflogo'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
+import AASFLogo from "../../assets/svgIcons/aasflogo";
+import "./footer.css";
+
+
 
 function Footer() {
   return (
     <div>
       <div className="footer">
-        <div className="inner-footer">
-          <div className="footer-logo-container">
-            <AASFLogo width={113} height={129} />
-
-            <p>
-              Address: A201, <br />
-              ABV-Indian Institute of Information Technology and Management
-              Gwalior,
-              <br />
-              Morena Link Road, Gwalior, Madhya Pradesh, India, 474015.
-            </p>
+       
+      <div className="footer-container">
+        <div className="footer-address-container">
+          <div className="footer-address-image">
+            <AASFLogo width={87} height={100} />
           </div>
-
-          <div></div>
-          <div className="footer-items">
-            <h5>General</h5>
-            <div className="footer-border"></div>
-            <ul>
-              <Link to="/">
-                <li>Home</li>
-              </Link>
-              {/* <Link to="/">
-                <li>Login</li>
-              </Link> */}
-            </ul>
+          <div className="footer-address-text">
+            Address: A201,
+            <br />
+            ABV-Indian Institute of Information Technology and Management
+            Gwalior, <br />
+            Morena Link Road, Gwalior, Madhya Pradesh, India, 474015.
           </div>
-
-          <div className="footer-items">
-            <h5>Explore</h5>
-            <div className="footer-border"></div>
-            <ul>
-              <Link to="/abhishar">
-                <li>Abhishar</li>
+        </div>
+        <div className="footer-menu-container">
+          <div className="footer-menu">
+            <div className="footer-menu-heading">General</div>
+            <div className="footer-menu-items">
+              <Link exact to="/">
+                Home
               </Link>
-              <Link to="/blogs">
-                <li>Blogs</li>
-              </Link>
-              <Link to="/events">
-                <li>Events</li>
-              </Link>
-              <Link to="/team">
-                <li>Team</li>
-              </Link>
-            </ul>
-          </div>
-
-          <div className="footer-items">
-            <h5>Help</h5>
-            <div className="footer-border"></div>
-            <ul>
-              <li>
-                <a href='mailto:aasf@iiitm.ac.in'>aasf@iiitm.ac.in</a></li>
-              <li><a href='mailto:aasf.iiitm@gmail.com'>aasf.iiitm@gmail.com</a></li>
-              <li><Link exact to="/contact">Contact us</Link></li>
-            </ul>
-          </div>
-
-          <div className="social-media">
-            <div className="terms">
-              {/* <div className="lower-footer">Terms and Conditions</div>
-              <div className="lower-footer">Privacy Policy</div> */}
             </div>
-            <div>
-              <a href="https://www.linkedin.com/company/aasf-iiitmg/posts/">
+          </div>
+          <div className="footer-menu">
+            <div className="footer-menu-heading">Explore</div>
+            <div className="footer-menu-items">
+              <Link exact to="/abhishar">
+                Abhishar
+              </Link>
+            </div>
+            <div className="footer-menu-items">
+              <Link exact to="/blogs">
+                Blogs
+              </Link>
+            </div>
+            <div className="footer-menu-items">
+              <Link exact to="/events">
+                Events
+              </Link>
+            </div>
+            <div className="footer-menu-items">
+              <Link exact to="/team">
+                Team
+              </Link>
+            </div>
+          </div>
+
+          <div className="footer-menu">
+            <div className="footer-menu-heading">Contact</div>
+            <div className="footer-menu-items">
+              <a href="mailto:aasf@iiitm.ac.in">aasf@iiitm.ac.in</a>
+            </div>
+            <div className="footer-menu-items">
+              <a href="mailto:aasf.iiitm@gmail.com">aasf.iiitm@gmail.com</a>
+            </div>
+
+            <div className="footer-menu-items">
+              <Link exact to="/contact">
+                Contact us
+              </Link>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+      <div className="footer-socialmedia-icons">
+      <a href="https://www.linkedin.com/company/aasf-iiitmg/posts/">
                 <i className="fab fa-linkedin-in"></i>
               </a>
               <a href="https://www.instagram.com/aasf_iiitmg/">
@@ -85,12 +91,10 @@ function Footer() {
               <a href="https://www.youtube.com/c/AASFIIITM">
                 <i className="fab fa-youtube"></i>
               </a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
