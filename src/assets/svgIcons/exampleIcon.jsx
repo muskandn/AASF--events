@@ -47,10 +47,7 @@ function ExampleIcon() {
 			</radialGradient>
 			<g transform='matrix(.061615 0 0 .061615 -1.430818 -1.2754)'>
 				<g clipPath='url(#a)'>
-					<path
-						d='m360.3 779.7 159.7 159.8 439.4-439.5h-319.5z'
-						fill='#39cefd'
-					/>
+					<path d='m360.3 779.7 159.7 159.8 439.4-439.5h-319.5z' fill='#39cefd' />
 				</g>
 				<path
 					clipPath='url(#b)'

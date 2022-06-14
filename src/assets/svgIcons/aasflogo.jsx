@@ -18,10 +18,7 @@ function AASFLogo({ width, height }) {
 					width='1'
 					height='1'
 				>
-					<use
-						xlinkHref='#image0_9_499'
-						transform='scale(0.00358469 0.00311526)'
-					/>
+					<use xlinkHref='#image0_9_499' transform='scale(0.00358469 0.00311526)' />
 				</pattern>
 				<image
 					id='image0_9_499'
