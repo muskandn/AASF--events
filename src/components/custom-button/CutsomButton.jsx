@@ -1,12 +1,12 @@
-import React from "react";
-import "./customButton.css";
+import React from 'react';
+import './customButton.css';
 
 const CustomButton = (props) => {
   return (
-    <div className="ab">
+    <div className='ab'>
       <p
         onClick={() => props.CustomButtom__onClickFunction()}
-        className="customButton"
+        className='customButton'
       >
         {props.customButton__text}
       </p>
