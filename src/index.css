@@ -1,12 +1,12 @@
 :root {
-	--primary-bg-color: #000000;
-	--secondary-bg-color: #2a2a2b;
-	--primary-accent-color: #ffcd25;
-	--secondary-accent-color: #d4b2e4;
-	--primary-text-color: #ffffff;
-	--secondary-text-color: #e9e8e8;
-	--primary-font: 'Work Sans';
-	--secondary-font: 'Mulish';
+  --primary-bg-color: #000000;
+  --secondary-bg-color: #2a2a2b;
+  --primary-accent-color: #ffcd25;
+  --secondary-accent-color: #d4b2e4;
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #e9e8e8;
+  --primary-font: 'Work Sans';
+  --secondary-font: 'Mulish';
 }
 
 html,
@@ -41,8 +41,8 @@ nav,
 section,
 audio,
 video {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 article,
@@ -52,47 +52,47 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+  display: block;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 hr {
-	display: block;
-	height: 1px;
-	border: 0px;
-	border-top: 1px solid #000;
-	margin: 0px;
-	padding: 0px;
+  display: block;
+  height: 1px;
+  border: 0px;
+  border-top: 1px solid #000;
+  margin: 0px;
+  padding: 0px;
 }
 
 dl,
 ol,
 ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 button {
-	background: none;
-	border: 0;
-	cursor: pointer;
-	font-size: 100%;
-	padding: 0;
-	touch-action: manipulation;
-	user-select: none;
-	-webkit-appearance: none;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font-size: 100%;
+  padding: 0;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-appearance: none;
 }
 
 /* Common CSS */
 
 .flex-centre {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .no-scroll {
-	overflow: hidden;
+  overflow: hidden;
 }
