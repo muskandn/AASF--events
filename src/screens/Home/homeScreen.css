@@ -1,182 +1,182 @@
 ::-webkit-scrollbar {
-	display: none;
+  display: none;
 }
 
 .homepage-section {
-	background-color: var(--primary-bg-color);
-	color: var(--secondary-text-color);
-	font-family: var(--secondary-font);
-	display: flex;
-	justify-content: space-between;
-	padding: 0rem 5rem;
-	font-size: 1.55rem;
+  background-color: var(--primary-bg-color);
+  color: var(--secondary-text-color);
+  font-family: var(--secondary-font);
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 5rem;
+  font-size: 1.55rem;
 }
 
 .homepage-section:nth-child(5) {
-	flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .homepage-content-box {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 750px;
 }
 
 .homepage-headings {
-	color: var(--primary-accent-color);
-	font-family: var(--primary-font);
-	font-weight: 1000;
-	padding-left: 2rem;
-	font-size: 3rem;
+  color: var(--primary-accent-color);
+  font-family: var(--primary-font);
+  font-weight: 1000;
+  padding-left: 2rem;
+  font-size: 3rem;
 }
 
 .homepage-college-name {
-	font-size: 2rem;
-	padding: 2rem;
+  font-size: 2rem;
+  padding: 2rem;
 }
 
 .aasf-heading {
-	color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 
 .homepage-abhishar-heading {
-	text-align: right;
-	padding-right: 2rem;
+  text-align: right;
+  padding-right: 2rem;
 }
 
 .homepage-abhishar-text {
-	text-align: right;
+  text-align: right;
 }
 
 .homepage-text {
-	padding: 2rem;
+  padding: 2rem;
 }
 
 .homepage-abhishar-button {
-	text-align: right;
+  text-align: right;
 }
 
 .homepage-image {
-	padding: 2rem;
+  padding: 2rem;
 }
 
 .homepage-image img {
-	height: 38rem;
+  height: 38rem;
 }
 
 @media screen and (max-width: 1300px) {
-	.homepage-section {
-		font-size: 1.3rem;
-		padding: 0rem 3.5rem;
-	}
+  .homepage-section {
+    font-size: 1.3rem;
+    padding: 0rem 3.5rem;
+  }
 
-	.homepage-college-name {
-		font-size: 1.7rem;
-	}
+  .homepage-college-name {
+    font-size: 1.7rem;
+  }
 
-	.homepage-headings {
-		font-size: 2.7rem;
-	}
+  .homepage-headings {
+    font-size: 2.7rem;
+  }
 
-	.homepage-image img {
-		height: 32rem;
-	}
+  .homepage-image img {
+    height: 32rem;
+  }
 }
 
 @media screen and (max-width: 1100px) {
-	.homepage-section {
-		font-size: 1.2rem;
-		padding: 0rem 2.75rem;
-	}
+  .homepage-section {
+    font-size: 1.2rem;
+    padding: 0rem 2.75rem;
+  }
 
-	.homepage-college-name {
-		font-size: 1.5rem;
-	}
+  .homepage-college-name {
+    font-size: 1.5rem;
+  }
 
-	.homepage-headings {
-		font-size: 2.5rem;
-	}
+  .homepage-headings {
+    font-size: 2.5rem;
+  }
 
-	.homepage-image img {
-		height: 28rem;
-	}
+  .homepage-image img {
+    height: 28rem;
+  }
 }
 
 @media screen and (max-width: 960px) {
-	.homepage-section {
-		font-size: 1rem;
-		padding: 0rem 2.5rem;
-	}
+  .homepage-section {
+    font-size: 1rem;
+    padding: 0rem 2.5rem;
+  }
 
-	.homepage-college-name {
-		font-size: 1.3rem;
-	}
+  .homepage-college-name {
+    font-size: 1.3rem;
+  }
 
-	.homepage-headings {
-		font-size: 2rem;
-	}
+  .homepage-headings {
+    font-size: 2rem;
+  }
 
-	.homepage-image img {
-		height: 22rem;
-	}
+  .homepage-image img {
+    height: 22rem;
+  }
 }
 
 @media screen and (max-width: 800px) {
-	.homepage-section {
-		font-size: 1rem;
-		padding: 0rem 2.5rem;
-		flex-direction: column-reverse;
-	}
+  .homepage-section {
+    font-size: 1rem;
+    padding: 0rem 2.5rem;
+    flex-direction: column-reverse;
+  }
 
-	.homepage-section:nth-child(5) {
-		flex-direction: column-reverse;
-	}
+  .homepage-section:nth-child(5) {
+    flex-direction: column-reverse;
+  }
 
-	.homepage-headings {
-		font-size: 2rem;
-		text-align: center;
-		padding-left: 0rem;
-	}
+  .homepage-headings {
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 0rem;
+  }
 
-	.homepage-college-name {
-		font-size: 1.3rem;
-		padding-left: 2rem;
-	}
+  .homepage-college-name {
+    font-size: 1.3rem;
+    padding-left: 2rem;
+  }
 
-	.homepage-abhishar-heading {
-		padding-right: 0rem;
-	}
+  .homepage-abhishar-heading {
+    padding-right: 0rem;
+  }
 
-	.homepage-text {
-		text-align: center;
-	}
+  .homepage-text {
+    text-align: center;
+  }
 
-	.homepage-image {
-		display: flex;
-		justify-content: center;
-	}
+  .homepage-image {
+    display: flex;
+    justify-content: center;
+  }
 
-	.homepage-image img {
-		height: 22rem;
-	}
+  .homepage-image img {
+    height: 22rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
-	.homepage-section {
-		font-size: 0.9rem;
-		padding: 0rem 1.2rem;
-	}
+  .homepage-section {
+    font-size: 0.9rem;
+    padding: 0rem 1.2rem;
+  }
 
-	.homepage-college-name {
-		font-size: 1.2rem;
-	}
+  .homepage-college-name {
+    font-size: 1.2rem;
+  }
 
-	.homepage-headings {
-		font-size: 1.75rem;
-	}
+  .homepage-headings {
+    font-size: 1.75rem;
+  }
 
-	.homepage-image img {
-		height: 20rem;
-	}
+  .homepage-image img {
+    height: 20rem;
+  }
 }
