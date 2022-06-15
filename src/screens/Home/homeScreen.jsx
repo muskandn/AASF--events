@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './homeScreen.css';
-import Navbar from '../../components/Navbar/navbar';
-import Footer from '../../components/Footer/footer';
 import CustomButton from '../../components/custom-button/CutsomButton';
 import ToTop from '../../components/ToTop';
 import Fade from 'react-reveal/Fade';
@@ -11,7 +9,6 @@ import Tilt from 'react-parallax-tilt';
 function HomeScreen() {
   return (
     <div>
-      <Navbar />
       <ToTop />
       <div className='homepage-section'>
         <Fade left>
@@ -132,7 +129,6 @@ function HomeScreen() {
           </Tilt>
         </Fade>
       </div>
-      <Footer />
     </div>
   );
 }
