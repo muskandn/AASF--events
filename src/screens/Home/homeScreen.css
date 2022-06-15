@@ -12,7 +12,7 @@
   font-size: 1.55rem;
 }
 
-.homepage-section:nth-child(5) {
+.homepage-section-reverse {
   flex-direction: row-reverse;
 }
 
@@ -40,12 +40,12 @@
   color: var(--primary-text-color);
 }
 
-.homepage-abhishar-heading {
+.homepage-headings-reverse {
   text-align: right;
   padding-right: 2rem;
 }
 
-.homepage-abhishar-text {
+.homepage-text-reverse {
   text-align: right;
 }
 
@@ -53,7 +53,7 @@
   padding: 2rem;
 }
 
-.homepage-abhishar-button {
+.homepage-button-reverse {
   text-align: right;
 }
 
@@ -129,7 +129,7 @@
     flex-direction: column-reverse;
   }
 
-  .homepage-section:nth-child(5) {
+  .homepage-section-reverse {
     flex-direction: column-reverse;
   }
 
@@ -144,7 +144,7 @@
     padding-left: 2rem;
   }
 
-  .homepage-abhishar-heading {
+  .homepage-headings-reverse {
     padding-right: 0rem;
   }
 
