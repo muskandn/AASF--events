@@ -9,6 +9,10 @@
   --secondary-font: 'Mulish';
 }
 
+html {
+	font-size: 16px;
+}
+
 html,
 body,
 div,
