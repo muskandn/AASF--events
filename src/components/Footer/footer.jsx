@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div>
       <div className='footer'>
-        <div className='footer-container'>
+        <div className='footer-container secondary-font'>
           <div className='footer-address-container'>
             <div className='footer-address-image'>
               <AASFLogo width={87} height={100} />
@@ -22,7 +22,9 @@ function Footer() {
           </div>
           <div className='footer-menu-container'>
             <div className='footer-menu'>
-              <div className='footer-menu-heading'>General</div>
+              <div className='footer-menu-heading'>
+                <b>General</b>
+              </div>
               <div className='footer-menu-items'>
                 <Link exact to='/'>
                   Home
@@ -30,23 +32,19 @@ function Footer() {
               </div>
             </div>
             <div className='footer-menu'>
-              <div className='footer-menu-heading'>Explore</div>
+              <div className='footer-menu-heading'>
+                <b>Explore</b>
+              </div>
               <div className='footer-menu-items'>
                 <Link exact to='/abhishar'>
                   Abhishar
                 </Link>
-              </div>
-              <div className='footer-menu-items'>
                 <Link exact to='/blogs'>
                   Blogs
                 </Link>
-              </div>
-              <div className='footer-menu-items'>
                 <Link exact to='/events'>
                   Events
                 </Link>
-              </div>
-              <div className='footer-menu-items'>
                 <Link exact to='/team'>
                   Team
                 </Link>
@@ -54,15 +52,12 @@ function Footer() {
             </div>
 
             <div className='footer-menu'>
-              <div className='footer-menu-heading'>Contact</div>
+              <div className='footer-menu-heading'>
+                <b>Contact</b>
+              </div>
               <div className='footer-menu-items'>
                 <a href='mailto:aasf@iiitm.ac.in'>aasf@iiitm.ac.in</a>
-              </div>
-              <div className='footer-menu-items'>
                 <a href='mailto:aasf.iiitm@gmail.com'>aasf.iiitm@gmail.com</a>
-              </div>
-
-              <div className='footer-menu-items'>
                 <Link exact to='/contact'>
                   Contact us
                 </Link>

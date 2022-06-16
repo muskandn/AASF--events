@@ -6,7 +6,7 @@ const CustomButton = (props) => {
     <div className='ab'>
       <p
         onClick={() => props.CustomButtom__onClickFunction()}
-        className='customButton'
+        className='customButton heading-font'
       >
         {props.customButton__text}
       </p>

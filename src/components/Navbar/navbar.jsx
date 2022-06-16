@@ -16,7 +16,7 @@ function Navbar() {
   };
 
   const isActiveClass = (isActive) => {
-    const activeClassName = isActive ? 'nav-links navbar-active' : 'nav-links';
+    const activeClassName = isActive ? 'navbar-active' : '';
     return activeClassName;
   };
 
@@ -44,7 +44,10 @@ function Navbar() {
         className={isNavOpen ? 'navbar-main-container' : ''}
         onClick={() => handleCloseNav()}
       />
-      <nav className='navbar flex-centre' onClick={(e) => e.stopPropagation()}>
+      <nav
+        className='navbar secondary-font flex-centre'
+        onClick={(e) => e.stopPropagation()}
+      >
         <div className='nav-container flex-centre'>
           <div className='nav-logo'>
             <NavLink exact to='/'>
