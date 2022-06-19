@@ -37,11 +37,13 @@ function HomeScreen() {
           </Tilt>
         </Fade>
       </div>
-      <div className='homepage-section'>
+      <div className='homepage-section homepage-section-reverse'>
         <Fade left>
           <div className='homepage-content-box'>
-            <div className='homepage-headings'>Our Vision</div>
-            <div className='homepage-text'>
+            <div className='homepage-headings homepage-headings-reverse'>
+              Our Vision
+            </div>
+            <div className='homepage-text homepage-text-reverse'>
               Abhigyan Abhikaushalam Students’ Forum aims to construct a
               shoreline that would help students construct a future path for
               themselves. It works to conjugate knowledge and skills into a
@@ -65,21 +67,15 @@ function HomeScreen() {
       <div className='homepage-section'>
         <Fade left>
           <div className='homepage-content-box'>
-            <div className='homepage-headings homepage-abhishar-heading'>
-              Abhishar
-            </div>
-            <div className='homepage-text homepage-abhishar-text'>
+            <div className='homepage-headings'>Abhishar</div>
+            <div className='homepage-text'>
               <b>“Abhishar”</b>, the annual magazine of AASF, contains articles
               by students, alumni and the institute’s faculty and serves as a
               medium to exchange ones thoughts and experiences. The highlights
               of the happenings at the institute and insight on
               techno-managerial topics are the spirit of the magazine.
             </div>
-            <Link
-              className='homepage-text homepage-abhishar-button'
-              exact
-              to='/abhishar'
-            >
+            <Link className='homepage-text' exact to='/abhishar'>
               <CustomButton customButton__text='ABHISHAR' />
             </Link>
           </div>
@@ -95,21 +91,21 @@ function HomeScreen() {
           </Tilt>
         </Fade>
       </div>
-      <div className='homepage-section'>
+      <div className='homepage-section homepage-section-reverse'>
         <Fade left>
           <div className='homepage-content-box'>
-            <div className='homepage-headings'>
+            <div className='homepage-headings homepage-headings-reverse'>
               Download
               <br />
               Our Android App
             </div>
-            <div className='homepage-text'>
+            <div className='homepage-text homepage-text-reverse'>
               Download our Android app to access your profile, leaderboard and
               many more exciting features. The app also provides you with our
               event calendar and notifies you of all the updates!
             </div>
             <a
-              className='homepage-text'
+              className='homepage-text homepage-button-reverse'
               href='https://drive.google.com/drive/folders/1Rc0wMjLU-VsjP_QLLOLCMNa-4mQtqJtT?usp=sharing'
               target='_blank'
               rel='noreferrer'
