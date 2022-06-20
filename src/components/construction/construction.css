@@ -10,8 +10,6 @@
 }
 
 .construction-text {
-  font-family: var(--primary-font);
-  color: var(--primary-text-color);
   font-size: 1.5rem;
   padding: 1rem;
 }

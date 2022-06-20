@@ -13,13 +13,13 @@ function HomeScreen() {
       <div className='homepage-section'>
         <Fade left>
           <div className='homepage-content-box'>
-            <div className='homepage-headings homepage-college-name'>
+            <div className='homepage-headings homepage-college-name heading-font'>
               ABV - IIITM Gwalior
             </div>
-            <div className='homepage-headings aasf-heading'>
+            <div className='homepage-headings aasf-heading heading-font'>
               Abhigyan Abhikaushalam Students&apos; Forum
             </div>
-            <div className='homepage-text'>
+            <div className='homepage-text secondary-font'>
               AASF works to conjugate knowledge and skills into a single bunch.
               The forum also aims to inculcate in the students the spirit of
               excellence in every field along with promoting innovative ideas.
@@ -40,10 +40,10 @@ function HomeScreen() {
       <div className='homepage-section homepage-section-reverse'>
         <Fade left>
           <div className='homepage-content-box'>
-            <div className='homepage-headings homepage-headings-reverse'>
+            <div className='homepage-headings homepage-align-right heading-font'>
               Our Vision
             </div>
-            <div className='homepage-text homepage-text-reverse'>
+            <div className='homepage-text homepage-align-right secondary-font'>
               Abhigyan Abhikaushalam Students’ Forum aims to construct a
               shoreline that would help students construct a future path for
               themselves. It works to conjugate knowledge and skills into a
@@ -67,8 +67,8 @@ function HomeScreen() {
       <div className='homepage-section'>
         <Fade left>
           <div className='homepage-content-box'>
-            <div className='homepage-headings'>Abhishar</div>
-            <div className='homepage-text'>
+            <div className='homepage-headings heading-font'>Abhishar</div>
+            <div className='homepage-text secondary-font'>
               <b>“Abhishar”</b>, the annual magazine of AASF, contains articles
               by students, alumni and the institute’s faculty and serves as a
               medium to exchange ones thoughts and experiences. The highlights
@@ -94,18 +94,18 @@ function HomeScreen() {
       <div className='homepage-section homepage-section-reverse'>
         <Fade left>
           <div className='homepage-content-box'>
-            <div className='homepage-headings homepage-headings-reverse'>
+            <div className='homepage-headings homepage-align-right heading-font'>
               Download
               <br />
               Our Android App
             </div>
-            <div className='homepage-text homepage-text-reverse'>
+            <div className='homepage-text homepage-align-right secondary-font'>
               Download our Android app to access your profile, leaderboard and
               many more exciting features. The app also provides you with our
               event calendar and notifies you of all the updates!
             </div>
             <a
-              className='homepage-text homepage-button-reverse'
+              className='homepage-text homepage-align-right'
               href='https://drive.google.com/drive/folders/1Rc0wMjLU-VsjP_QLLOLCMNa-4mQtqJtT?usp=sharing'
               target='_blank'
               rel='noreferrer'

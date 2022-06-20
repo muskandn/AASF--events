@@ -4,8 +4,6 @@
 
 .homepage-section {
   background-color: var(--primary-bg-color);
-  color: var(--secondary-text-color);
-  font-family: var(--secondary-font);
   display: flex;
   justify-content: space-between;
   padding: 0rem 5rem;
@@ -20,14 +18,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 750px;
+  max-width: 47rem;
 }
 
 .homepage-headings {
-  color: var(--primary-accent-color);
-  font-family: var(--primary-font);
-  font-weight: 1000;
-  padding-left: 2rem;
+  padding: 0rem 2rem;
   font-size: 3rem;
 }
 
@@ -40,20 +35,11 @@
   color: var(--primary-text-color);
 }
 
-.homepage-headings-reverse {
-  text-align: right;
-  padding-right: 2rem;
-}
-
-.homepage-text-reverse {
-  text-align: right;
-}
-
 .homepage-text {
   padding: 2rem;
 }
 
-.homepage-button-reverse {
+.homepage-align-right {
   text-align: right;
 }
 
@@ -129,23 +115,16 @@
     flex-direction: column-reverse;
   }
 
-  .homepage-section-reverse {
-    flex-direction: column-reverse;
-  }
-
   .homepage-headings {
     font-size: 2rem;
     text-align: center;
     padding-left: 0rem;
+    padding-right: 0rem;
   }
 
   .homepage-college-name {
     font-size: 1.3rem;
     padding-left: 2rem;
-  }
-
-  .homepage-headings-reverse {
-    padding-right: 0rem;
   }
 
   .homepage-text {

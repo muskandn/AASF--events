@@ -5,8 +5,6 @@
 
 .footer-container {
   display: flex;
-  color: var(--primary-text-color);
-  font-family: var(--secondary-font);
   font-size: 0.9rem;
   justify-content: space-between;
 }
@@ -33,22 +31,16 @@
 }
 
 .footer-menu-heading {
-  font-weight: 1000;
   padding-bottom: 1rem;
 }
 
 .footer-menu-items {
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-menu-items a {
-  color: var(--primary-text-color);
-  transition: 0.5seconds;
-}
-
-.footer-menu-items a:hover {
-  color: var(--primary-accent-color);
+  padding: 0.2rem 0rem;
 }
 
 .footer-socialmedia-icons {
@@ -58,14 +50,8 @@
 }
 
 .footer-socialmedia-icons i {
-  color: var(--primary-text-color);
-  transition: 0.5seconds;
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.footer-socialmedia-icons i:hover {
-  color: var(--primary-accent-color);
 }
 
 @media screen and (max-width: 1200px) {

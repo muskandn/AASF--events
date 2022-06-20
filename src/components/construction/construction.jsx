@@ -10,7 +10,7 @@ function Construction() {
           alt='construction'
         ></img>
       </div>
-      <div className='construction-text'>{'<UnderProgress/>'}</div>
+      <div className='construction-text primary-font'>{'<UnderProgress/>'}</div>
     </div>
   );
 }
