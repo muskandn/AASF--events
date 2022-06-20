@@ -1,10 +1,16 @@
 import React from 'react';
-import Construction from '../../components/construction/construction';
-
+// import Construction from '../../components/construction/construction';
+import Abhisharcard from '../../components/abhisharCards/abhisharcard';
 function AbhisharScreen() {
   return (
     <div>
-      <Construction />
+      <Abhisharcard
+        image='https://res.cloudinary.com/dzerj4bzd/image/upload/v1655749782/AASF%20Website/abihsharcard-image_reivd1.png'
+        heading='A Jog Down 
+the Sports Lane'
+        version='11.0'
+        text='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'
+      />
     </div>
   );
 }
