@@ -35,12 +35,12 @@
 }
 
 .footer-menu-items {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-menu-items a {
-	padding: 0.2rem 0rem;
+  padding: 0.2rem 0rem;
 }
 
 .footer-socialmedia-icons {
