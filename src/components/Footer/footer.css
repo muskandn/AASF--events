@@ -44,7 +44,7 @@
 }
 
 .footer-socialmedia-icons {
-  									display: flex;
+                 display: flex;
   justify-content: flex-end;
   padding-top: 2.5rem;
 }
