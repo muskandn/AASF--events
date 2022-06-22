@@ -1,5 +1,6 @@
 import React from 'react';
 import './abhisharcard.css';
+
 function Abhisharcard({ image, heading, version, text }) {
   return (
     <div className='abhishar-card-container'>
