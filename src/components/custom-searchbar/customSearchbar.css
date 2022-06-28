@@ -1,0 +1,200 @@
+.SearchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customSearchbarContainer {
+  width: 52rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.customSearchbarContainer .input {
+  border: 0;
+  outline: none;
+  color: var(--secondary-text-color);
+  background: var(--secondary-bg-color);
+  box-sizing: border-box;
+}
+
+.customSearchbarContainer__search_wrap {
+  width: 52rem;
+  margin: 2.375rem auto;
+  display: flex;
+  align-items: center;
+}
+
+.customSearchbarContainer__search_wrap .customSearchbarContainer__search_box {
+  position: relative;
+  width: 37.5rem;
+  height: 5rem;
+}
+
+.customSearchbarContainer__search_wrap
+  .customSearchbarContainer__search_box
+  .input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+.customSearchbarContainer__search_wrap
+  .customSearchbarContainer__search_box
+  .customSearchbarContainer_btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 100%;
+  background: var(--secondary-bg-color);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.customSearchbarContainer__search_wrap
+  .customSearchbarContainer__search_box
+  .customSearchbarContainer_btn:hover {
+  background: var(--primary-accent-color);
+}
+
+.customSearchbarContainer__search_wrap
+  .customSearchbarContainer__search_box
+  .customSearchbarContainer_btn
+  .fas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--secondary-text-color);
+  font-size: 20px;
+}
+
+.customSearchbarContainer__search_wrap.customSearchbarContainer__search_wrap_4
+  .customSearchbarContainer__search_box
+  .input {
+  padding-left: 80px;
+}
+
+.customSearchbarContainer__search_wrap.customSearchbarContainer__search_wrap_4
+  .customSearchbarContainer__search_box
+  .input {
+  border-radius: 10px;
+}
+
+.customSearchbarContainer__search_wrap.customSearchbarContainer__search_wrap_4
+  .customSearchbarContainer__search_box
+  .customSearchbarContainer_btn {
+  left: 0px;
+}
+
+.customSearchbarContainer__searchboxTags {
+  background: var(--secondary-bg-color);
+  padding: 10px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.customSearchbarContainer__searchboxTags a {
+  color: var(--secondary-text-color);
+  margin: 5px;
+  padding-right: 10px;
+}
+
+.customSearchbarContainer__searchboxTags .SearchBar {
+  border-right: 1px solid var(--secondary-text-color);
+  line-height: 20px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+  .customSearchbarContainer {
+    width: 40rem;
+  }
+
+  .customSearchbarContainer__search_wrap {
+    width: 40rem;
+  }
+  .customSearchbarContainer__search_wrap .customSearchbarContainer__search_box {
+    height: 4rem;
+  }
+  .customSearchbarContainer__searchboxTags {
+    height: 52px;
+    padding: 6px;
+  }
+
+  .customSearchbarContainer__searchboxTags .SearchBar {
+    border-right: 1px solid var(--secondary-text-color);
+    line-height: 16px;
+    padding: 8px;
+  }
+  .customSearchbarContainer__search_wrap.customSearchbarContainer__search_wrap_4
+    .customSearchbarContainer__search_box
+    .input {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .customSearchbarContainer {
+    width: 28rem;
+  }
+
+  .customSearchbarContainer__search_wrap {
+    width: 28rem;
+  }
+  .customSearchbarContainer__search_wrap .customSearchbarContainer__search_box {
+    height: 3rem;
+  }
+  .customSearchbarContainer__searchboxTags {
+    height: 36px;
+    padding: 6px;
+  }
+  .customSearchbarContainer__searchboxTags .SearchBar {
+    border-right: 1px solid var(--secondary-text-color);
+    line-height: 12px;
+    padding: 6px;
+  }
+  .customSearchbarContainer__search_wrap.customSearchbarContainer__search_wrap_4
+    .customSearchbarContainer__search_box
+    .input {
+    padding-left: 44px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .customSearchbarContainer {
+    width: 20rem;
+  }
+
+  .customSearchbarContainer__search_wrap {
+    width: 20rem;
+  }
+  .customSearchbarContainer__search_wrap .customSearchbarContainer__search_box {
+    height: 2.25rem;
+  }
+  .customSearchbarContainer__searchboxTags {
+    height: 28px;
+    padding: 4px;
+  }
+  .customSearchbarContainer__searchboxTags .SearchBar {
+    border-right: 1px solid var(--secondary-text-color);
+    line-height: 8px;
+    padding: 4px;
+  }
+  .customSearchbarContainer__search_wrap.customSearchbarContainer__search_wrap_4
+    .customSearchbarContainer__search_box
+    .input {
+    padding-left: 32px;
+  }
+}
