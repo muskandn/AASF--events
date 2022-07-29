@@ -1,6 +1,6 @@
 import React from 'react';
 import Construction from '../../components/construction/construction';
-// import Abhisharcard from '../../components/abhisharCards/abhisharcard';
+//  import Abhisharcard from '../../components/abhisharCards/abhisharcard';
 import './abhisharScreen.css';
 
 function AbhisharScreen() {
@@ -13,7 +13,7 @@ function AbhisharScreen() {
         heading='A Jog Down 
 the Sports Lane'
         version='11.0'
-        text='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'
+        text='Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industryLorem Ipsum is simply dummy text of the printing and typesetting industry.'
       /> */}
       <Construction />
     </div>

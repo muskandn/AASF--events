@@ -9,8 +9,11 @@ function Abhisharcard({ image, heading, version, text }) {
       </div>
       <div className='abhishar-card-content'>
         <div className='abhishar-card-heading primary-font'>{heading}</div>
-        <div className='abhishar-card-version'>ABHISHAR V{version}</div>
-        <div className='abhishar-card-text secondary-font'>{text}</div>
+        <div className='abhishar-card-version'>ABHISHAR v{version}</div>
+        <div className='abhishar-card-text secondary-font'>
+          {text} <br />
+          <br />
+        </div>
       </div>
     </div>
   );
