@@ -1,0 +1,69 @@
+.abhishar-card-container {
+  background-color: var(--secondary-bg-color);
+  max-width: 40rem;
+  margin: 2rem;
+  padding: 1.5rem;
+  display: flex;
+  border-radius: 2rem;
+}
+
+.abhishar-card-image {
+  padding: 0.5rem;
+}
+
+.abhishar-card-image img {
+  max-width: 19rem;
+}
+
+.abhishar-card-content {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.abhishar-card-heading {
+  font-size: 1.8rem;
+  font-weight: 1000;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.abhishar-card-text {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.abhishar-card-version {
+  color: var(--primary-bg-color);
+  background-color: var(--secondary-accent-color);
+  font-family: var(--secondary-font);
+  font-weight: 1000;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10rem;
+  width: max-content;
+  margin: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .abhishar-card-image img {
+    width: 15rem;
+  }
+
+  .abhishar-card-container {
+    margin: 1rem;
+  }
+
+  .abhishar-card-heading {
+    font-size: 1.4rem;
+  }
+
+  .abhishar-card-text {
+    font-size: 0.8rem;
+  }
+
+  .abhishar-card-version {
+    font-size: 0.8rem;
+  }
+}
