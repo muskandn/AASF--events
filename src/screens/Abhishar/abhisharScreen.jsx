@@ -3,8 +3,7 @@ import React from 'react';
 import Abhisharcard from '../../components/abhisharCards/abhisharcard';
 import CustomheaderComponent from '../../components/CustomHeaderComponent/CustomheaderComponent';
 import { Fade } from 'react-reveal';
-import Tilt from 'react-parallax-tilt';
-import { AbhisharCard } from './abhisharData';
+import AbhisharCard from './abhisharData.json';
 import './abhisharScreen.css';
 
 function AbhisharScreen() {
@@ -24,6 +23,12 @@ the Sports Lane'
         img='https://res.cloudinary.com/dzerj4bzd/image/upload/v1659433799/AASF%20Website/book_mjmmsx.png'
         text='Abhishar'
         SearchBarCondition='true'
+        url1='https://abhisharv11.aasf.in/'
+        url2='https://abhishar-v10.netlify.app/#magazine'
+        url3='http://www.iiitm.ac.in/index.php/en/quick-link/abhishar/179-abhishar'
+        link1='v11.0'
+        link2='v10.0'
+        link3='IIITM'
       />
       <div className='abhisharpage-section'>
         <Fade left>
@@ -41,26 +46,25 @@ the Sports Lane'
           </div>
         </Fade>
         <Fade right>
-          <Tilt trackOnWindow='true' tiltMaxAngleX={10} tiltMaxAngleY={10}>
-            <div className='abhisharpage-image'>
-              <img
-                alt='abhishar'
-                src='https://res.cloudinary.com/dzerj4bzd/image/upload/v1654114321/AASF%20Website/homepage-abhishar_ugkdqk.png'
-              ></img>
-            </div>
-          </Tilt>
+          <div className='abhisharpage-image'>
+            <img
+              alt='abhishar'
+              src='https://res.cloudinary.com/dzerj4bzd/image/upload/v1659515423/AASF%20Website/Late_olnlyi.png'
+            ></img>
+          </div>
         </Fade>
       </div>
       <div className='abhisharpage-card-container'>
-        {AbhisharCard.map((card) => {
+        {AbhisharCard.map((card) => (
           <Abhisharcard
             key={card.version}
             image={card.image}
             heading={card.heading}
             version={card.version}
             text={card.text}
-          />;
-        })}
+            link={card.link}
+          />
+        ))}
         {/* <Abhisharcard
         image='https://res.cloudinary.com/dzerj4bzd/image/upload/v1655749782/AASF%20Website/abihsharcard-image_reivd1.png'
         heading='A Jog Down the Sports Lane'

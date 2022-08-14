@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0rem 5rem;
+  padding-top: 5rem;
   font-size: 1.55rem;
 }
 
@@ -33,6 +34,7 @@
 .abhisharpage-card-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   background-color: var(--primary-bg-color);
   padding-bottom: 5rem;
 }
