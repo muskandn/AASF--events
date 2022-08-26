@@ -5,8 +5,11 @@ import CustomheaderComponent from '../../components/CustomHeaderComponent/Custom
 import { Fade } from 'react-reveal';
 import AbhisharCard from './abhisharData.json';
 import './abhisharScreen.css';
+import { useState } from 'react';
 
 function AbhisharScreen() {
+  const [cardList, setCardList] = useState({ AbhisharCard });
+
   return (
     <div>
       {/* Trying Abhishar card
@@ -25,10 +28,10 @@ the Sports Lane'
         SearchBarCondition='true'
         url1='https://abhisharv11.aasf.in/'
         url2='https://abhishar-v10.netlify.app/#magazine'
-        url3='http://www.iiitm.ac.in/index.php/en/quick-link/abhishar/179-abhishar'
         link1='v11.0'
         link2='v10.0'
-        link3='IIITM'
+        data={AbhisharCard}
+        setList={setCardList}
       />
       <div className='abhisharpage-section'>
         <Fade left>
@@ -55,7 +58,7 @@ the Sports Lane'
         </Fade>
       </div>
       <div className='abhisharpage-card-container'>
-        {AbhisharCard.map((card) => (
+        {cardList.map((card) => (
           <Abhisharcard
             key={card.version}
             image={card.image}

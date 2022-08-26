@@ -9,10 +9,10 @@ const CustomheaderComponent = ({
   SearchBarCondition,
   url1,
   url2,
-  url3,
   link1,
   link2,
-  link3,
+  data,
+  setList,
 }) => {
   return (
     <div>
@@ -21,10 +21,10 @@ const CustomheaderComponent = ({
         <CustomSearchBar
           url1={url1}
           url2={url2}
-          url3={url3}
           link1={link1}
           link2={link2}
-          link3={link3}
+          data={data}
+          setList={setList}
         />
       </CondiontalRender>
     </div>
