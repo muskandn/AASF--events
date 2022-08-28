@@ -7,14 +7,12 @@ const CustomSearchBar = ({ url1, url2, link1, link2, data, setList }) => {
   const [query, setQuery] = useState('');
 
   useEffect(() => {
-    data.filter((post) => {
-      if (query === '') {
-        setList(post);
-      } else if (post.title.toLowerCase().includes(query.toLowerCase())) {
-        setList(post);
-      }
-    });
-  }, query);
+    setList(
+      data.filter((post) => {
+        return post.heading.toLowerCase().includes(query.toLowerCase());
+      })
+    );
+  }, [query]);
 
   return (
     <div className='SearchBar flex-centre'>
@@ -28,9 +26,6 @@ const CustomSearchBar = ({ url1, url2, link1, link2, data, setList }) => {
               <a href={url2} target='_blank' rel='noreferrer'>
                 {link2}&nbsp;
               </a>
-              {/* <a href={url3} target='_blank' rel='noreferrer'>
-                {link3}&nbsp;
-              </a> */}
             </span>
           </div>
           <div className='customSearchbarContainer__search_box'>

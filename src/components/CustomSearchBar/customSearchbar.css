@@ -151,8 +151,8 @@
     height: 3rem;
   }
   .customSearchbarContainer__searchboxTags {
-    height: 36px;
-    padding: 6px;
+    visibility: hidden;
+    width: 0;
   }
   .customSearchbarContainer__searchboxTags .SearchBar {
     border-right: 1px solid var(--secondary-text-color);
@@ -178,8 +178,8 @@
     height: 2.25rem;
   }
   .customSearchbarContainer__searchboxTags {
-    height: 28px;
-    padding: 4px;
+    visibility: hidden;
+    width: 0;
   }
   .customSearchbarContainer__searchboxTags .SearchBar {
     border-right: 1px solid var(--secondary-text-color);

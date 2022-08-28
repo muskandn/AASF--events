@@ -1,5 +1,4 @@
 import React from 'react';
-// import Construction from '../../components/construction/construction';
 import Abhisharcard from '../../components/abhisharCards/abhisharcard';
 import CustomheaderComponent from '../../components/CustomHeaderComponent/CustomheaderComponent';
 import { Fade } from 'react-reveal';
@@ -8,20 +7,10 @@ import './abhisharScreen.css';
 import { useState } from 'react';
 
 function AbhisharScreen() {
-  const [cardList, setCardList] = useState({ AbhisharCard });
+  const [cardList, setCardList] = useState(AbhisharCard);
 
   return (
     <div>
-      {/* Trying Abhishar card
-      
-      <Abhisharcard
-        image='https://res.cloudinary.com/dzerj4bzd/image/upload/v1655749782/AASF%20Website/abihsharcard-image_reivd1.png'
-        heading='A Jog Down 
-the Sports Lane'
-        version='11.0'
-        text='Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industryLorem Ipsum is simply dummy text of the printing and typesetting industry.'
-      /> */}
-
       <CustomheaderComponent
         img='https://res.cloudinary.com/dzerj4bzd/image/upload/v1659433799/AASF%20Website/book_mjmmsx.png'
         text='Abhishar'
@@ -58,6 +47,7 @@ the Sports Lane'
         </Fade>
       </div>
       <div className='abhisharpage-card-container'>
+        {console.log(cardList)}
         {cardList.map((card) => (
           <Abhisharcard
             key={card.version}
@@ -68,12 +58,6 @@ the Sports Lane'
             link={card.link}
           />
         ))}
-        {/* <Abhisharcard
-        image='https://res.cloudinary.com/dzerj4bzd/image/upload/v1655749782/AASF%20Website/abihsharcard-image_reivd1.png'
-        heading='A Jog Down the Sports Lane'
-        version='11.0'
-        text='Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industryLorem Ipsum is simply dummy text of the printing and typesetting industry.'
-      /> */}
       </div>
     </div>
   );
