@@ -9,7 +9,15 @@ const CustomSearchBar = ({ url1, url2, link1, link2, data, setList }) => {
   useEffect(() => {
     setList(
       data.filter((post) => {
-        return post.heading.toLowerCase().includes(query.toLowerCase());
+        // const words = query.split(' ');
+        // let searchRes = [];
+        let postContent = post.heading + ' ' + post.version;
+        return postContent.toLowerCase().includes(query.toLowerCase());
+
+        // console.log(searchRes);
+        // return searchRes;
+
+        // return post.heading.toLowerCase().includes(query.toLowerCase()) || post.version.toLowerCase().includes(query.toLowerCase());
       })
     );
   }, [query]);

@@ -1,9 +1,23 @@
+.abhishar-tabs-container {
+  background-color: var(--primary-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+.abhishar-tab {
+  padding: 0rem 5rem;
+}
+
 .abhisharpage-section {
   background-color: var(--primary-bg-color);
   display: flex;
   justify-content: space-between;
   padding: 0rem 5rem;
-  padding-top: 5rem;
+  padding-top: 0rem;
   font-size: 1.55rem;
 }
 
@@ -36,7 +50,21 @@
   justify-content: center;
   flex-wrap: wrap;
   background-color: var(--primary-bg-color);
-  padding-bottom: 5rem;
+  padding: 1rem 0rem;
+}
+
+.abhishar-no-result {
+  opacity: 0.3;
+  font-size: 1.5rem;
+  padding: 5rem 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.abhishar-no-result img {
+  height: 30vh;
 }
 
 @media screen and (max-width: 1300px) {
