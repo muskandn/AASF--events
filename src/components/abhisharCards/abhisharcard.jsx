@@ -3,7 +3,7 @@ import CustomButton from '../custom-button/CutsomButton';
 import './abhisharcard.css';
 
 function Abhisharcard({ image, heading, version, text, link }) {
-  const customFunction = () => {
+  const openAbhishar = () => {
     window.open(link, '_blank');
   };
 
@@ -21,7 +21,7 @@ function Abhisharcard({ image, heading, version, text, link }) {
         </div>
         <div className='abhishar-card-button'>
           <CustomButton
-            CustomButtom__onClickFunction={customFunction}
+            CustomButtom__onClickFunction={openAbhishar}
             customButton__text='Read'
           />
         </div>
