@@ -5,10 +5,13 @@
   padding: 1.5rem;
   display: flex;
   border-radius: 2rem;
+  max-height: 25rem;
 }
 
 .abhishar-card-image {
   padding: 0.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .abhishar-card-image img {
@@ -32,6 +35,11 @@
 .abhishar-card-text {
   font-size: 1rem;
   padding: 0.5rem;
+}
+
+.abhishar-card-button {
+  padding: 0.5rem;
+  font-size: 1.3rem;
 }
 
 .abhishar-card-version {
@@ -65,5 +73,37 @@
 
   .abhishar-card-version {
     font-size: 0.8rem;
+  }
+
+  .abhishar-card-button {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .abhishar-card-text {
+    overflow-y: auto;
+    height: 5rem;
+  }
+
+  .abhishar-card-text::-webkit-scrollbar {
+    display: none;
+  }
+
+  .abhishar-card-image img {
+    width: 12rem;
+    height: 17rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .abhishar-card-text {
+    overflow-y: auto;
+    height: 2rem;
+  }
+
+  .abhishar-card-image img {
+    width: 8rem;
+    height: 12rem;
   }
 }

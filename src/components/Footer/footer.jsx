@@ -57,7 +57,7 @@ function Footer() {
               </div>
               <div className='footer-menu-items'>
                 <a href='mailto:aasf@iiitm.ac.in'>aasf@iiitm.ac.in</a>
-                <a href='mailto:aasf.iiitm@gmail.com'>aasf.iiitm@gmail.com</a>
+                <a href='mailto:aasf.iiitmg@gmail.com'>aasf.iiitmg@gmail.com</a>
                 <Link exact to='/contact'>
                   Contact us
                 </Link>
