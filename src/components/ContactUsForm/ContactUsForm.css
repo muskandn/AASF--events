@@ -1,0 +1,124 @@
+.contact-us-form-container {
+  background-color: var(--secondary-bg-color);
+  border-radius: 15px;
+  padding: 8rem 2rem;
+  padding-bottom: 3.5rem;
+  font-size: 1.25rem;
+  width: 500px;
+}
+
+.contact-us-form input, .contact-us-form textarea {
+  background-color: var(--secondary-bg-color);
+  color: var(--secondary-text-color);
+  border: none;
+  border-bottom: solid 0.1rem;
+  margin-bottom: 4rem;
+  width: 100%;
+  font-size: 1.2rem;
+	font: var(--secondary-text);
+	outline: none;
+}
+
+.contact-us-form textarea {
+	height: 7rem;
+}
+
+.contact-us-form input:active {
+  border: none;
+}
+
+.contact-us-form input[type='file'],
+.contact-us-form input[type='submit'] {
+  visibility: hidden;
+}
+
+.upload-button {
+  cursor: pointer;
+  padding-top: 2rem;
+}
+
+.upload-button-text {
+  padding: 0 1rem;
+  transition: 0.5s;
+}
+
+.upload-button-text:hover {
+  background-color: var(--primary-accent-color);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: var(--primary-bg-color);
+}
+
+.contact-form-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.send-message-button {
+  font-size: 1rem;
+  color: var(--primary-accent-color);
+  background-color: var(--primary-bg-color);
+  padding: 1.3rem 2rem;
+  border-radius: 0.8rem;
+  font-weight: 1000;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.send-message-button:hover {
+  transform: scale(1.08);
+}
+
+@media screen and (max-width: 1300px) {
+  .contact-us-form-container {
+    width: 500px;
+  }
+
+  .contact-us-form input {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .contact-us-form-container {
+    padding-top: 5rem;
+  }
+
+  .contact-us-form input {
+    font-size: 0.7rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact-us-form input {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-us-form-container {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact-us-form-container {
+    width: 250px;
+    font-size: 1rem;
+  }
+
+  .contact-us-form input {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .upload-button-text {
+    font-size: 0.8rem;
+    padding-left: 0.4rem;
+  }
+
+  .send-message-button {
+    font-size: 0.8rem;
+    padding: 0.8rem 0.7rem;
+  }
+}
