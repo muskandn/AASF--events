@@ -7,7 +7,8 @@
   width: 500px;
 }
 
-.contact-us-form input, .contact-us-form textarea {
+.contact-us-form input,
+.contact-us-form textarea {
   background-color: var(--secondary-bg-color);
   color: var(--secondary-text-color);
   border: none;
@@ -15,12 +16,12 @@
   margin-bottom: 4rem;
   width: 100%;
   font-size: 1.2rem;
-	font: var(--secondary-text);
-	outline: none;
+  font: var(--secondary-text);
+  outline: none;
 }
 
 .contact-us-form textarea {
-	height: 7rem;
+  height: 7rem;
 }
 
 .contact-us-form input:active {
