@@ -1,0 +1,8 @@
+.teamMemberCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  background-color: var(--primary-bg-color);
+  padding: 4rem;
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300&display=swap');
+
+.teamMemberCard {
+  height: 22.8rem;
+  width: 13.75rem;
+  margin: 1.25rem;
+  box-shadow: 0 3px 5px #000;
+  border-radius: 0.7rem;
+  overflow: hidden;
+  text-align: center;
+  background-color: var(--secondary-bg-color);
+}
+
+.teamMemberCard:hover {
+  transform: scale(1.02);
+}
+
+.teamMemberCard__image img {
+  height: 13.75rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.teamMemberCard__name {
+  color: var(--primary-text-color);
+  padding: 6px 0px 12px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: var(--primary-font);
+}
+
+.teamCard__socialicon {
+  padding: 2px 8px 0px 8px;
+  color: var(--secondary-text-color);
+}
+
+.teammemberCard__socialIcons a:hover {
+  color: var(--primary-accent-color);
+}
+.socialicons-designation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 5.625rem;
+}
+.teammemberCard__socialIcons {
+  padding-bottom: 0.5rem;
+}
+
+.teamMemberCard__designation {
+  padding: 0 1px 12px;
+  color: var(--secondary-text-color);
+  font-family: var(--secondary-font);
+}
