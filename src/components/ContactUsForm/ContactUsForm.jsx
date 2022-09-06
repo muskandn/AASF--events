@@ -7,10 +7,7 @@ function ContactUsForm() {
   const [message, setMessage] = useState('');
 
   const mailTo =
-    'mailto:aasf.iiitmg@gmail.com?subject=' +
-    name.split(' ').join('_') +
-    '&body=' +
-    message.split(' ').join('_');
+    'mailto:aasf.iiitmg@gmail.com?subject=' + name + '&body=' + message;
 
   const handleSubmit = (event) => {
     event.preventDefault();
