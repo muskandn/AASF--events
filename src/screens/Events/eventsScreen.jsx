@@ -8,7 +8,7 @@ function EventsScreen() {
   return (
     <div>
       <CustomheaderComponent
-        img='https://res.cloudinary.com/dzerj4bzd/image/upload/v1659433799/AASF%20Website/book_mjmmsx.png'
+        img='https://res.cloudinary.com/dzerj4bzd/image/upload/v1673372425/AASF%20Website/eventpagebg_rgzlrh.png'
         text='Events'
       />
       <div className='eventpage-card-container'>
@@ -19,8 +19,10 @@ function EventsScreen() {
             heading={card.heading}
             tag={card.tag}
             content={card.content}
-            date={card.date}
-            venue={card.venue}
+            date1={card.date1}
+            date2={card.date2}
+            venue1={card.venue1}
+            venue2={card.venue2}
           />
         ))}
       </div>

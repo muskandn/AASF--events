@@ -1,20 +1,101 @@
 [
   {
     "key": "1",
-    "image": "https://cdn.vox-cdn.com/thumbor/23dWY86RxkdF7ZegvfnY8gFjR7s=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19157811/ply0947_fall_reviews_2019_tv_anime.jpg",
-    "heading": "sdfad",
-    "tag": "faklsjdfl",
-    "content": "sdfajdlk",
-    "date": "sdkfajl",
-    "venue": "fasdjfk"
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673367609/AASF%20Website/SquarePic_20230110_21460645_dakklc.jpg",
+    "heading": "Winter Projects",
+    "tag": "Technical",
+    "content": "Winter can be a great time to start a project! Winter Projects focus on different domains like web development, machine learning, blockchain, etc to continue students' professional development between semesters. Participants are supervised by experienced mentors from our institute's pre-final and final years.",
+    "date1": "Started 9th Jan, 2023",
+    "date2": "1 month+",
+    "venue1": "Discord",
+    "venue2": "Online"
   },
   {
     "key": "2",
-    "image": "https://cdn.vox-cdn.com/thumbor/23dWY86RxkdF7ZegvfnY8gFjR7s=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19157811/ply0947_fall_reviews_2019_tv_anime.jpg",
-    "heading": "sdfad",
-    "tag": "faklsjdfl",
-    "content": "sdfajdlk adfdas fadsf dd",
-    "date": "sdkfajl",
-    "venue": "fasdjfk"
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673362519/AASF%20Website/IMG_20230110_202328_naab8m.jpg",
+    "heading": "A Guide to Open Source",
+    "tag": "Technical",
+    "content": "We aim to promote the culture of contributing to Open Source and some exciting global programmes like GSoC. Open Source Software provides a platform for collaborative growth and development, which provides great learning for young contributors.",
+    "date1": "27th Dec, 2023",
+    "date2": "4:00 - 6:00 PM",
+    "venue1": "MS Teams",
+    "venue2": "Online"
+  },
+  {
+    "key": "3",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673367609/AASF%20Website/SquarePic_20230110_21455143_afifww.jpg",
+    "heading": "git init FOSS",
+    "tag": "Technical",
+    "content": "git init FOSS, a month-long event to help students learn about open source workflow. There are maintainers who guide students in their projects. For every valid pull request that gets merged into the project, students gain points is updated on the event's leaderboard!",
+    "date1": "1st - 31st Oct, 2022",
+    "date2": "1 month",
+    "venue1": "Event Website",
+    "venue2": "Online"
+  },
+  {
+    "key": "6",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673367607/AASF%20Website/IMG_20230110_213648_ic1j7o.jpg",
+    "heading": "Demystifying Blockchain",
+    "tag": "Technical",
+    "content": "The 5-day long event gave students basic knowledge of Blockchain, one of the fastest-growing technology in the world. The event started off with how Blockchain can be used in finance, and later moved forward to the working of the Blockchain. The students also got to make a hands-on project.",
+    "date1": "10th - 14th Oct",
+    "date2": "6:00 - 8:00 PM",
+    "venue1": "B-205, LT-1",
+    "venue2": "IIITM Acad Block"
+  },
+  {
+    "key": "4",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673367609/AASF%20Website/IMG_20230110_213847_pofk3c.jpg",
+    "heading": "Web Week - Frontend",
+    "tag": "Technical",
+    "content": "Web Week - Frontend part introduced students to all the important concepts of developing a website's frontend, i.e. the part of a website the users interact with. The topics covered in this week were: History of Web, Hypertext Markup Language (HTML5), Cascading Style Sheets (CSS3), JavaScript (JS).",
+    "date1": "1st - 6th Aug, 2022",
+    "date2": "6:00 - 8:00 PM",
+    "venue1": "MS Teams",
+    "venue2": "Online"
+  },
+  {
+    "key": "5",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673367609/AASF%20Website/IMG_20230110_213825_oyfg29.jpg",
+    "heading": "Web Week - Backend",
+    "tag": "Technical",
+    "content": "Web Week - Backend phase of the event, introduced students to all the key ideas of the backend (also known as server-side), the part of the website you don't see. Its responsibilities include data manipulation and organization, providing APIs as per the client-side functionality. user management, etc.",
+    "date1": "30th Aug - 4th Sep, 2022",
+    "date2": "6:00 - 8:00 PM",
+    "venue1": "MS Teams",
+    "venue2": "Online"
+  },
+  {
+    "key": "7",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673367610/AASF%20Website/IMG_20230110_213803_lac7ww.jpg",
+    "heading": "Unravelling Research",
+    "tag": "Technical",
+    "content": "For the first time, AASF hosted a research-focused event, where they gained valuable insight by listening to the organisers discuss their research internship experiences. Additionally, they also showed how to take advantage of some excellent research possibilities both domestically and internationally.",
+    "date1": "15th Sept, 2022",
+    "date2": "6:00 - 8:00 PM",
+    "venue1": "B-010, LT-1",
+    "venue2": "IIITM Acad Block"
+  },
+  {
+    "key": "8",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673367609/AASF%20Website/IMG_20230110_213942_nnzh08.jpg",
+    "heading": "Bash hIQ",
+    "tag": "Technical",
+    "content": "It is found that being able to use the terminal rather than relying on GUIs gives you more flexibility, which is why AASF conducted a hIQ on Bash to help students get to know this powerful tool. Bash is a legitimate interface to your computer, and it's not just for server admins and programmers.",
+    "date1": "17th June, 2022",
+    "date2": "6:00 - 8:00 PM",
+    "venue1": "B-010, LT-1",
+    "venue2": "IIITM Acad Block"
+  },
+  {
+    "key": "9",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673367607/AASF%20Website/IMG_20230110_214332_cralgb.jpg",
+    "heading": "Introduction to C++",
+    "tag": "Technical",
+    "content": "AASF hosted an introductory session on C++ over the course of four days to get freshers acquainted with this all-purpose language. This session will assisted in learning and brushing up the fundamentals of C++, as well as providing an overview of emerging concepts.",
+    "date1": "25th - 28th Jan, 2022",
+    "date2": "6:00 - 8:00 PM",
+    "venue1": "MS Teams",
+    "venue2": "Online"
   }
 ]
