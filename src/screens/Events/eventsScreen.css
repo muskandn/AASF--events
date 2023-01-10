@@ -1,0 +1,7 @@
+.eventpage-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: var(--primary-bg-color);
+  padding: 1rem 0rem;
+}
