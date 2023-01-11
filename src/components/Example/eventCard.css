@@ -1,0 +1,143 @@
+.event-card-container {
+  background-color: var(--secondary-bg-color);
+  max-width: 37rem;
+  margin: 2rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  max-height: 50rem;
+}
+
+.event-card-container-head {
+  display: flex;
+}
+
+.event-card-image {
+  padding: 0.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.event-card-image img {
+  max-width: 18rem;
+}
+
+.event-card-content {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.event-card-heading {
+  font-size: 1.8rem;
+  font-weight: 1000;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.event-card-text {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.event-card-button {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.event-card-version {
+  color: var(--primary-bg-color);
+  background-color: var(--secondary-accent-color);
+  font-family: var(--secondary-font);
+  font-weight: 1000;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10rem;
+  width: max-content;
+  margin: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.event-card-head-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.event-card-info {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  padding-bottom: 0rem;
+}
+
+.event-card-info-icon {
+  padding-right: 1.5rem;
+}
+
+.event-card-info-text-top {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #eae3e3;
+}
+
+.event-card-info-text-bottom {
+  font-size: 0.8rem;
+  color: #e9e8e8;
+}
+
+@media screen and (max-width: 1200px) {
+  .event-card-image img {
+    width: 15rem;
+  }
+
+  .event-card-container {
+    margin: 1rem;
+  }
+
+  .event-card-heading {
+    font-size: 1.4rem;
+  }
+
+  .event-card-text {
+    font-size: 0.8rem;
+  }
+
+  .event-card-version {
+    font-size: 0.8rem;
+  }
+
+  .event-card-button {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .event-card-text {
+    overflow-y: auto;
+    height: 5rem;
+  }
+
+  .event-card-text::-webkit-scrollbar {
+    display: none;
+  }
+
+  .event-card-image img {
+    width: 12rem;
+    height: 17rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .event-card-text {
+    overflow-y: auto;
+    height: 2rem;
+  }
+
+  .event-card-image img {
+    width: 8rem;
+    height: 12rem;
+  }
+}
