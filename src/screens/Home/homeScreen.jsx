@@ -31,7 +31,7 @@ function HomeScreen() {
             <div className='homepage-image'>
               <img
                 alt='teaching'
-                src='https://res.cloudinary.com/dzerj4bzd/image/upload/v1653836937/AASF%20Website/homepage-teaching_aiiuv2.png'
+                src='https://i.ibb.co/vDXzqpd/homepage-title.png'
               ></img>
             </div>
           </Tilt>

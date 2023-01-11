@@ -1,5 +1,65 @@
 [
   {
+    "Name": "Abhinav Gupta",
+    "Batch": "BCS-2021",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673346428/AASF%20Website/1672254495861_pxaimt.jpg",
+    "Designation": "Batch Representative",
+    "Instagram": "https://instagram.com/navvv.gupta",
+    "LinkedIn": "https://www.linkedin.com/in/abhinav-gupta-30b494232",
+    "Facebook": "",
+    "Twitter": ""
+  },
+  {
+    "Name": "Avijeet Jain",
+    "Batch": "IMG-2021",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673347035/AASF%20Website/Snapchat-629655594_dd54gp.jpg",
+    "Designation": "Batch Representative",
+    "Instagram": "https://instagram.com/_.aviii_._",
+    "LinkedIn": "https://www.linkedin.com/in/avijeet-jain-476712233",
+    "Facebook": "",
+    "Twitter": ""
+  },
+  {
+    "Name": "Harshith Mente",
+    "Batch": "IMT-2021",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673346872/AASF%20Website/1643091918137-1_jmsrkc.jpg",
+    "Designation": "Batch Representative",
+    "Instagram": "https://instagram.com/harshith.mente",
+    "LinkedIn": "https://www.linkedin.com/in/harshith-mente-001492224",
+    "Facebook": "",
+    "Twitter": ""
+  },
+  {
+    "Name": "Lata",
+    "Batch": "IMT-2021",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673346428/AASF%20Website/IMG-20221113-WA0135_zeerib.jpg",
+    "Designation": "Batch Representative",
+    "Instagram": "https://instagram.com/_lyre_strings",
+    "LinkedIn": "https://www.linkedin.com/in/lata-800988222",
+    "Facebook": "",
+    "Twitter": ""
+  },
+  {
+    "Name": "Muskan",
+    "Batch": "BCS-2021",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673346872/AASF%20Website/1644936434642-1_gmmdzp.jpg",
+    "Designation": "Batch Representative",
+    "Instagram": "https://instagram.com/pic_c.h.a.s.e.r",
+    "LinkedIn": "https://www.linkedin.com/in/muskandn",
+    "Facebook": "",
+    "Twitter": ""
+  },
+  {
+    "Name": "Pranav Z",
+    "Batch": "IMG-2021",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673346427/AASF%20Website/1661435939235_gq2eah.jpg",
+    "Designation": "Batch Representative",
+    "Instagram": "https://instagram.com/p_ranav_z",
+    "LinkedIn": "https://www.linkedin.com/in/pranavz",
+    "Facebook": "",
+    "Twitter": ""
+  },
+  {
     "Name": "Akshith Gandla",
     "Batch": "BCS-2020",
     "image": "https://res.cloudinary.com/dzsrxnxyj/image/upload/v1660477799/Akshith_exzr7t.webp",
@@ -143,17 +203,6 @@
     "Twitter": ""
   },
   {
-    "Name": "Guna Shekar P",
-    "Batch": "BCS-2018",
-    "image": "https://res.cloudinary.com/dzsrxnxyj/image/upload/v1660477799/GunaSir_e94mca.webp",
-    "Designation": "Advisory Committee",
-    "Instagram": "https://www.instagram.com/guna_shekar02/",
-    "LinkedIn": "https://linkedin.com/in/guna-shekar-proddaturi",
-    "Facebook": "",
-    "Twitter": "https://twitter.com/guna_shekar02",
-    "Medium": "https://medium.com/@guna_shekar02"
-  },
-  {
     "Name": "Manish Dangi",
     "Batch": "IMG-2018",
     "image": "https://res.cloudinary.com/dzsrxnxyj/image/upload/v1660477799/DangiSir_u6cson.webp",
@@ -171,56 +220,6 @@
     "Instagram": "https://instagram.com/ritikatomar810",
     "LinkedIn": "https://www.linkedin.com/in/tomarviii88/",
     "Facebook": "",
-    "Twitter": ""
-  },
-  {
-    "Name": "Saniya Arora",
-    "Batch": "BCS-2018",
-    "image": "https://res.cloudinary.com/dzsrxnxyj/image/upload/v1660477801/SaniyaMa_am_d1fp2r.webp",
-    "Designation": "Advisory Committee",
-    "Instagram": "https://www.instagram.com/saniya__arora/",
-    "LinkedIn": "https://www.linkedin.com/in/saniya-arora-408726181/",
-    "Facebook": "",
-    "Twitter": ""
-  },
-  {
-    "Name": "Palak Jain",
-    "Batch": "IMG-2017",
-    "image": "https://res.cloudinary.com/dzsrxnxyj/image/upload/v1660477800/PalakMa_am_nxdnyj.webp",
-    "Designation": "Advisory Committee",
-    "Instagram": "https://www.instagram.com/_palak_0598/",
-    "LinkedIn": "https://www.linkedin.com/in/palakjain2512/",
-    "Facebook": "",
-    "Twitter": ""
-  },
-  {
-    "Name": "Rini Pandey",
-    "Batch": "IMT-2017",
-    "image": "https://res.cloudinary.com/dzsrxnxyj/image/upload/v1660477801/RiniMa_am_t66bwh.webp",
-    "Designation": "Advisory Committee",
-    "Instagram": "instagram.com/rinipandey_19/",
-    "LinkedIn": "https://www.linkedin.com/in/rini-pandey/",
-    "Facebook": "",
-    "Twitter": ""
-  },
-  {
-    "Name": "Rohit Kunji",
-    "Batch": "IMT-2017",
-    "image": "https://res.cloudinary.com/dzsrxnxyj/image/upload/v1660478278/KunjiSir_lhzhxj.webp",
-    "Designation": "Advisory Committee",
-    "Instagram": "https://www.instagram.com/rohitkunji/",
-    "LinkedIn": "https://www.linkedin.com/in/rohitkunji/",
-    "Facebook": "",
-    "Twitter": ""
-  },
-  {
-    "Name": "Simran Gupta",
-    "Batch": "IMG-2017",
-    "image": "https://res.cloudinary.com/dzsrxnxyj/image/upload/v1660477801/SimranMa_am_k6low2.webp",
-    "Designation": "Advisory Committee",
-    "Instagram": "https://www.instagram.com/simrangupta.12/",
-    "LinkedIn": "https://www.linkedin.com/in/1209simran",
-    "Facebook": "https://www.facebook.com/1209simran",
     "Twitter": ""
   }
 ]
