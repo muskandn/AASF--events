@@ -1,30 +1,91 @@
-import React from 'react';
-import EventCard from '../../components/Example/eventCard';
-import CustomheaderComponent from '../../components/CustomHeaderComponent/CustomheaderComponent';
+import React, { useState, useEffect } from 'react';
+import NewEventCard from '../../components/newEventCard/NewEventCard';
+import EventCard from '../../components/EventCards/EventCard';
 import EventPageData from './eventData.json';
+import flagshipeventData from './flagshipeventData.json';
+import EventHeader from '../../components/EventHeader/EventHeader';
 import './eventsScreen.css';
 
+const CardsPerPage = 4;
+
 function EventsScreen() {
+  const [currentPage, setCurrentPage] = useState(1);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const totalPages = Math.ceil(EventPageData.length / CardsPerPage);
+
+  const startIndex = (currentPage - 1) * CardsPerPage;
+  const endIndex =
+    startIndex + (isMobile ? CardsPerPage : EventPageData.length);
+  const visibleCards = EventPageData.slice(startIndex, endIndex);
+
+  const handlePageChange = (newPage) => {
+    setCurrentPage(newPage);
+  };
+
   return (
     <div>
-      <CustomheaderComponent
-        img='https://res.cloudinary.com/dzerj4bzd/image/upload/v1673372425/AASF%20Website/eventpagebg_rgzlrh.png'
-        text='Events'
-      />
-      <div className='eventpage-card-container'>
-        {EventPageData.map((card) => (
-          <EventCard
-            key={card.key}
-            image={card.image}
-            heading={card.heading}
-            tag={card.tag}
-            content={card.content}
-            date1={card.date1}
-            date2={card.date2}
-            venue1={card.venue1}
-            venue2={card.venue2}
-          />
-        ))}
+      <EventHeader />
+      <div className='flagship-events-container'>
+        <div className='flagship-events-main-container'>
+          <div className='flagship-events-text-container'>Flagship Events</div>
+          <div className='flagship-events'>
+            {flagshipeventData.map((card) => (
+              <NewEventCard
+                key={card.key}
+                image={card.image}
+                heading={card.heading}
+                tags={card.tag}
+                content={card.content}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+      <div
+        className={`events-container ${
+          isMobile ? 'event-container-mobile' : ''
+        }`}
+      >
+        <div className='events-main-container'>
+          <div className='events-text-container'>Events</div>
+          <div className='events'>
+            {visibleCards.map((card) => (
+              <EventCard
+                key={card.key}
+                image={card.image}
+                heading={card.heading}
+                content={card.content}
+              />
+            ))}
+          </div>
+          {isMobile && (
+            <div className='pagination'>
+              {Array.from({ length: totalPages }, (_, index) => (
+                <button
+                  key={index}
+                  onClick={() => handlePageChange(index + 1)}
+                  className={currentPage === index + 1 ? 'active' : ''}
+                >
+                  {index + 1}
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

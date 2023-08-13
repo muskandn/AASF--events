@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+.flagship-event-card {
+  display: flex;
+  width: 18rem;
+  /* height:38rem; */
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  background: var(--surface-dark-cards, #1b2032);
+}
+
+.flagship-event-image-container {
+  display: flex;
+  height: 16.5rem;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+
+.flagship-event-image {
+  width: 22rem;
+  height: 16.5rem;
+}
+
+.flagship-event-details-container {
+  display: flex;
+  padding: 1rem 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.125rem;
+  align-self: stretch;
+}
+
+.flagship-event-details-header {
+  color: var(--s-dark-text-primary, #f4f4f5);
+  font-family: var(--primary-font);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.flagship-event-type-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  align-self: stretch;
+}
+
+.flagship-event-type,
+.flagship-event-type-2,
+.flagship-event-type-3 {
+  display: flex;
+  padding: 0.375rem 0.625rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 1.5rem;
+  background: var(--surface-tag-technical, #d4b2e4);
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.flagship-event-type-2 {
+  background: var(--surface-tag-oratory, #eec1bb);
+}
+
+.flagship-event-type-3 {
+  background: var(--surface-tag-managerial, #75bfc4);
+}
+
+.flagship-event-details {
+  color: var(--s-dark-text-tertiary, #d2d1d6);
+
+  /* desktop/event/description */
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-self: stretch;
+}
+
+@media only screen and (max-width: 768px) {
+  .flagship-event-card {
+    width: 20.5rem;
+  }
+
+  .flagship-event-image-container {
+    height: 15rem;
+  }
+
+  .flagship-event-image {
+    width: 20.5rem;
+    height: 15rem;
+  }
+
+  .flagship-event-details-container {
+    gap: 0.875rem;
+  }
+  .flagship-event-details-header {
+    color: var(--s-dark-text-primary, #f4f4f5);
+    font-size: 1.125rem;
+  }
+  .flagship-event-type-container {
+    gap: 0.375rem;
+  }
+
+  .flagship-event-type,
+  .flagship-event-type-2,
+  .flagship-event-type-3 {
+    font-size: 0.625rem;
+  }
+
+  .flagship-event-details {
+    font-size: 0.875rem;
+  }
+}

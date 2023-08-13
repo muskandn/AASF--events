@@ -1,7 +1,100 @@
-.eventpage-card-container {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+.flagship-events-container,
+.events-container {
+  display: inline-flex;
+  padding: 3rem 10rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+  background: var(--surface-dark-primary, #02071b);
+}
+
+.events-container {
+  background: var(--surface-light-secondary, #f9f9f9);
+}
+.flagship-events-main-container,
+.events-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.25rem;
+}
+
+.flagship-events-text-container,
+.events-text-container {
+  align-self: stretch;
+  color: var(--dark-text-primary, #fff);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.events-text-container {
+  color: var(--grey-1, #1d1934);
+}
+
+.flagship-events,
+.events {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 2rem;
   flex-wrap: wrap;
-  background-color: var(--primary-bg-color);
-  padding: 1rem 0rem;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(25% - 2rem), 1fr));
+  grid-gap: 2rem; */
+}
+
+/* .flagship-events>* , .events >*{
+  width: 100%;
+} */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+.pagination button {
+  border: none;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 0.5rem 0.75rem;
+  margin: 0 0.3125rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button.active {
+  background-color: #333;
+  color: #fff;
+}
+.events-container.event-container-mobile .events {
+  display: flex;
+  flex-direction: column;
+}
+
+.events-container.event-container-mobile .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+@media only screen and (max-width: 768px) {
+  .flagship-events-container,
+  .events-container {
+    display: flex;
+    padding: 2.25rem 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+  }
+
+  .event-container-mobile {
+    display: flex;
+    align-items: center;
+  }
 }
