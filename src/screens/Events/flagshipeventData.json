@@ -1,0 +1,65 @@
+[
+  {
+    "key": "1",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673367609/AASF%20Website/SquarePic_20230110_21460645_dakklc.jpg",
+    "heading": "Winter Projects",
+    "tag": ["Technical", "Managerial"],
+    "content": "Winter can be a great time to start a project! Winter Projects focus on different domains like web development, machine learning, blockchain, etc to continue students' professional development between semesters. Participants are supervised by experienced mentors from our institute's pre-final and final years."
+  },
+  {
+    "key": "2",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673362519/AASF%20Website/IMG_20230110_202328_naab8m.jpg",
+    "heading": "Aakriti",
+    "tag": "Technical",
+    "content": "AASF's three-week graphic designing contest enhanced first-year students' skills through tracks in Photoshop and Figma, fostering creative growth."
+  },
+  {
+    "key": "3",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673367609/AASF%20Website/SquarePic_20230110_21455143_afifww.jpg",
+    "heading": "git init FOSS",
+    "tag": "Technical",
+    "content": "git init FOSS, a month-long event to help students learn about open source workflow. There are maintainers who guide students in their projects. For every valid pull request that gets merged into the project, students gain points is updated on the event's leaderboard!"
+  },
+  {
+    "key": "6",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673367607/AASF%20Website/IMG_20230110_213648_ic1j7o.jpg",
+    "heading": "Webkriti",
+    "tag": "Technical",
+    "content": "AASF's Webkriti for the sophomore year students led to skill development through team-based web development projects, promoting hands-on experience with diverse tech stacks and fostering real-life project engagement."
+  },
+  {
+    "key": "4",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673367609/AASF%20Website/IMG_20230110_213847_pofk3c.jpg",
+    "heading": "Mock Interview Series",
+    "tag": ["Technical", "Managerial"],
+    "content": "AASF's Mock Interview Series, led by alumni, empowered third-year and above students by providing realistic interview experiences, personalized feedback, and specialized tracks for technical and managerial roles, thereby enhancing their readiness for placements and internships."
+  },
+  {
+    "key": "5",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673367609/AASF%20Website/IMG_20230110_213825_oyfg29.jpg",
+    "heading": "Experentia",
+    "tag": ["Technical", "Managerial"],
+    "content": "Web Week - Backend phase of the event, introduced students to all the key ideas of the backend (also known as server-side), the part of the website you don't see. Its responsibilities include data manipulation and organization, providing APIs as per the client-side functionality. user management, etc."
+  },
+  {
+    "key": "7",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673367610/AASF%20Website/IMG_20230110_213803_lac7ww.jpg",
+    "heading": "HackStack",
+    "tag": "Technical",
+    "content": "For the first time, AASF hosted a research-focused event, where they gained valuable insight by listening to the organisers discuss their research internship experiences. Additionally, they also showed how to take advantage of some excellent research possibilities both domestically and internationally."
+  },
+  {
+    "key": "8",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673367609/AASF%20Website/IMG_20230110_213942_nnzh08.jpg",
+    "heading": "Corporate to Campus",
+    "tag": ["Technical", "Managerial"],
+    "content": "AASF's Corporate2Campus familiarized students with corporate finance, automation, mergers, and capital structure, catering to those aspiring for finance careers, offering valuable insights and guidance."
+  },
+  {
+    "key": "9",
+    "image": "https://res.cloudinary.com/dzerj4bzd/image/upload/v1673367607/AASF%20Website/IMG_20230110_214332_cralgb.jpg",
+    "heading": "Technical Blog Writing",
+    "tag": ["Technical", "Literary"],
+    "content": "AASF hosted an introductory session on C++ over the course of four days to get freshers acquainted with this all-purpose language. This session will assisted in learning and brushing up the fundamentals of C++, as well as providing an overview of emerging concepts."
+  }
+]
